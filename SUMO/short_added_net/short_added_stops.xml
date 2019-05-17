@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Пн 25 мар 2019 22:55:44 by Eclipse SUMO netedit Version 1.1.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="short_added.cutnet.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="short_added.cutnet.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <visualisation>
+        <registry-viewport value="true"/>
+    </visualisation>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="bkz" name="БКЗ Октябрьский" lane="172005094#0_0" lines="15 22 74 105" startPos="36.51" endPos="51.51"/>
+    <busStop id="liteyny_0" name="Литейный проспект" lane="576484873#0_0" lines="3 7 22 24 27 181 191" startPos="16.92" endPos="31.92"/>
+    <busStop id="liteyny_1" name="Литейный проспект" lane="143519872#0_0" lines="3 7 22 24 27 181 191" startPos="64.25" endPos="79.25"/>
+    <busStop id="liteyny_2" name="Невский-Литейный" lane="121643106#0_0" lines="15" startPos="106.57" endPos="121.57"/>
+    <busStop id="mayakovskogo" name="улица Маяковского" lane="181344179#0_0" lines="22" startPos="22.69" endPos="37.69"/>
+    <busStop id="railway_0" name="Московкий вокзал" lane="31380964#0_0" lines="3 26 54 65 74 76 91 105 141" startPos="141.46" endPos="156.46"/>
+    <busStop id="railway_1" name="Московский вокзал" lane="299168659#0_0" lines="3 26 54 65 74 76 91 105 141" startPos="352.16" endPos="367.16"/>
+    <busStop id="suvorov_0" name="Суворовский проспект" lane="143818833#0_0" lines="24 27 65 191" startPos="193.07" endPos="208.07"/>
+    <busStop id="suvorov_1" name="Суворовский проспект" lane="160338253#3_0" lines="24 27 65 191" startPos="96.46" endPos="111.46"/>
+    <busStop id="vosst_0" name="Площадь Восстания М" lane="143525645#0_0" lines="3 7 24 27 181 191" startPos="60.41" endPos="75.41"/>
+    <busStop id="vosst_1" name="Площадь Восстания М" lane="576484870_0" lines="3 7 15 22 24 27 181 191" startPos="49.98" endPos="64.98"/>
+    <busStop id="zhukovskogo_22" name="улица Жуковского" lane="181344178#0_0" lines="22" startPos="69.57" endPos="84.57"/>
+    <busStop id="zhukovskovgo_15" name="улица Жуковского" lane="121643106#0_0" lines="15" startPos="282.76" endPos="297.76"/>
+
+    <busStop id="poltav_0" name="Полтавская улица" lane="143818842#0_0" lines="24 27 65 191" startPos="30.03" endPos="45.03"/>
+    <busStop id="poltav_1" name="Полтавская улица" lane="468646555#0_0" lines="24 27 65 191" startPos="241.68" endPos="256.68"/>
+
+    <vType id="BUS" vClass="bus" lcStrategic="2.0" lcCooperative="0.0" lcSpeedGain="0.0" lcOpposite="0.0" accel="0.49" decel="4" sigma="0" length="12" minGap="3" maxSpeed="13.8" color="1,1,0" guiShape="bus">
+        <param key="has.rerouting.device" value="false"/>
+    </vType>
+    <vType id="CAR" accel="2.22" decel="4.2" sigma="0" length="4.3" minGap="2" maxSpeed="16" speedFactor="normc(1,0.1,0.2,2)" color="1,0,1" guiShape="passenger/hatchback"/>
+</additional>

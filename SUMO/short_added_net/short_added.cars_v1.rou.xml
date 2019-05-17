@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route id="f0" edges="143525649#1 576484873#0 143525651#0 143525646#0 143525645#0 576484872 31380964#0" />
+
+    <route id="f1" edges="-31389783#2 -121643106#11 31371344#0 31368584#0 4462098#0 333879408 46831845 31380278#1 333879407#0 666418527#0 666418527#4 666418527#10 121643106#0 31389783#0" />
+    <route id="f2" edges="23141385#0 576484873#0 143525651#0 181344179#0 129211291#0" />
+    <route id="f3" edges="23141385#0 576484873#0 143525651#0 143525646#0 143525645#0 121643135#0" />
+    <route id="f4" edges="143525633 143525649#1 576484873#0 143525651#0 143525646#0 143525645#0 121643135#0" />
+    <route id="f5" edges="23141385#0 576484873#0 143525651#0 143525646#0 143525645#0 576484872 31380964#0" />
+
+    <route id="f6" edges="511116165#1 673384660#0 143525645#0 576484872 86337054 71393231#0 262764315 185184926#0 251949580" />
+    <route id="f7" edges="511116165#1 673384660#0 143525645#0 576484872 143525644 143525638 143519876 641158909#0 31368931#0" />
+    <route id="f8" edges="666418527#10 143525651#0 181344179#0 129211291#0" />
+
+<!-- <route id="f2" edges="" />
+<route id="f2" edges="" />
+<route id="f2" edges="" /> -->
+
+<!--    <flow id="test1" type="CAR" begin="0" end="500" route="f1" number="100" />
+    <flow id="test2" type="CAR" begin="0" end="500" route="f2" number="100" />
+    <flow id="test3" type="CAR" begin="0" end="500" route="f3" number="100" />
+    <flow id="test4" type="CAR" begin="0" end="500" route="f4" number="100" />
+    <flow id="test5" type="CAR" begin="0" end="500" route="f5" number="100" />
+    <flow id="test6" type="CAR" begin="0" end="500" route="f6" number="100" />
+    <flow id="test7" type="CAR" begin="0" end="500" route="f7" number="100" /> -->
+<!-- <flow id="test1" type="CAR" begin="0" end="0" route="f1" number="20" departPos="free"/> -->
+</routes>

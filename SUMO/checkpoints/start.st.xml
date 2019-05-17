@@ -1,0 +1,3736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Sat May  4 12:16:56 2019 by Eclipse SUMO Version 1.1.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="../SUMO/short_added_net/short_added.net.xml"/>
+        <route-files value="../SUMO/short_added_net/short_added.buses.rou.xml,../SUMO/short_added_net/short_added.cars_v2.rou.xml,/home/madis/SUMO/tmp/test_optimizer_result.rou.xml"/>
+        <additional-files value="../SUMO/short_added_net/short_added_stops.xml"/>
+        <load-state value="/home/madis/SUMO/checkpoints/test_optinmizer.st.xml"/>
+    </input>
+
+    <time>
+        <begin value="0.00"/>
+    </time>
+
+    <processing>
+        <collision.action value="none"/>
+        <max-num-teleports value="1"/>
+    </processing>
+
+    <report>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="58135"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<snapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/state_file.xsd" version="1.1.0" time="0.00">
+    <route id="105_a" state="1" edges="427930952#0 129212177#0 129212177#4 172005094#0 262764319#0 181985395#0 262764316 31380964#0"/>
+    <route id="105_b" state="1" edges="299168659#0 544989443#0 178568773 86337054 71393231#0 262764315 185184926#0 -129212177#8 -129212177#3 -427930952#1"/>
+    <route id="15" state="1" edges="346882568 172005094#0 262764319#0 181985395#0 262764316 143519856#0 576484870 262764311#0 181344171#0 121643106#0 31389783#0"/>
+    <route id="181_a" state="1" edges="511336036#0 143519870#0 544989444#0 143519871 143519868 143519856#0 576484870 262764311#0 181344171#0 143519872#0 143519853"/>
+    <route id="181_b" state="1" edges="143525633 143525649#1 576484873#0 143525651#0 143525646#0 143525645#0 576484872 143525644 143525638 143519877 511336033#0"/>
+    <route id="191_a" state="1" edges="468646555#0 143818841#0 160338253#0 160338253#3 143519861#0 143519870#0 544989444#0 143519871 143519868 143519856#0 576484870 262764311#0 181344171#0 143519872#0 143519853"/>
+    <route id="191_b" state="1" edges="143525633 143525649#1 576484873#0 143525651#0 143525646#0 143525645#0 576484872 143525644 143525638 143519877 143818833#0 143818839#0 143818842#0"/>
+    <route id="22_a" state="1" edges="427930952#0 129212177#0 129212177#4 172005094#0 262764319#0 181985395#0 262764316 143519856#0 576484870 262764311#0 181344171#0 143519872#0 143519853"/>
+    <route id="22_b" state="1" edges="143525633 143525649#1 576484873#0 143525651#0 181344179#0 181344178#0 -427930952#1"/>
+    <route id="24_a" state="1" edges="468646555#0 143818841#0 160338253#0 160338253#3 143519861#0 143519870#0 544989444#0 143519871 143519868 143519856#0 576484870 262764311#0 181344171#0 143519872#0 143519853"/>
+    <route id="24_b" state="1" edges="143525633 143525649#1 576484873#0 143525651#0 143525646#0 143525645#0 576484872 143525644 143525638 143519877 143818833#0 143818839#0 143818842#0"/>
+    <route id="27_a" state="1" edges="468646555#0 143818841#0 160338253#0 160338253#3 143519861#0 143519870#0 544989444#0 143519871 143519868 143519856#0 576484870 262764311#0 181344171#0 143519872#0 143519853"/>
+    <route id="27_b" state="1" edges="143525633 143525649#1 576484873#0 143525651#0 143525646#0 143525645#0 576484872 143525644 143525638 143519877 143818833#0 143818839#0 143818842#0"/>
+    <route id="3_a" state="1" edges="299168659#0 544989443#0 178568773 143519856#0 576484870 262764311#0 181344171#0 143519872#0 143519853"/>
+    <route id="3_b" state="1" edges="143525633 143525649#1 576484873#0 143525651#0 143525646#0 143525645#0 576484872 31380964#0"/>
+    <route id="65_a" state="1" edges="468646555#0 143818841#0 160338253#0 160338253#3 143519861#0 143519870#0 544989444#0 143519871 143519868 31380964#0"/>
+    <route id="65_b" state="1" edges="299168659#0 544989443#0 467812638 641153546 143519877 143818833#0 143818839#0 143818842#0"/>
+    <route id="7" state="1" edges="143525633 143525649#1 576484873#0 143525651#0 143525646#0 143525645#0 576484872 143525644 143525638 143519874 143519871 143519868 143519856#0 576484870 262764311#0 181344171#0 143519872#0 143519853"/>
+    <route id="74_a" state="1" edges="427930952#0 129212177#0 129212177#4 172005094#0 262764319#0 181985395#0 262764316 31380964#0"/>
+    <route id="74_b" state="1" edges="299168659#0 544989443#0 178568773 86337054 71393231#0 262764315 185184926#0 -129212177#8 -129212177#3 -427930952#1"/>
+    <route id="f0*" state="1" edges="673384660#0 143525645#0 576484872 143525644 143525638 143519876 641158909#0"/>
+    <route id="f0a" state="1" edges="143525633 143525649#1 576484873#0 143525651#0 143525646#0 143525645#0 576484872 143525644 143525638 143519876 641158909#0"/>
+    <route id="f0b" state="1" edges="143818841#0 160338253#0 160338253#3 143519861#0 143519870#0 544989444#0 143519871 143519868 143519856#0 576484870 262764311#0 181344171#0 143519872#0 143519853"/>
+    <route id="f1" state="1" edges="143525633 143525649#1 576484873#0 143525651#0 143525646#0 143525645#0 576484872 31380964#0"/>
+    <route id="f2a" state="1" edges="299168659#0 544989443#0 178568773 143525644 143525638 143519876 641158909#0"/>
+    <route id="f2b" state="1" edges="143818841#0 160338253#0 160338253#3 143519861#0 143519870#0 544989444#0 143519871 143519868 31380964#0"/>
+    <route id="f2c" state="1" edges="172005094#0 262764319#0 181985395#0 262764316 143519856#0 576484870 262764311#0 181344171#0 143519872#0 143519853"/>
+    <route id="f2d" state="1" edges="299168659#0 544989443#0 178568773 143519856#0 576484870 262764311#0 181344171#0 143519872#0 143519853"/>
+    <route id="f3a" state="1" edges="299168659#0 544989443#0 178568773 86337054 71393231#0 262764315 185184926#0 251949580"/>
+    <route id="f3b" state="1" edges="346882568 172005094#0 262764319#0 181985395#0 262764316 31380964#0"/>
+    <route id="f4" state="1" edges="143525633 143525649#1 576484873#0 143525651#0 181344179#0 181344178#0 129212177#0 129212177#4 172005094#0"/>
+    <route id="f4*" state="1" edges="181344179#0 181344178#0 129212177#0 129212177#4 172005094#0"/>
+    <route id="f5" state="1" edges="673384660#0 262764311#0 181344171#0 143519872#0 143519853"/>
+    <route id="f6a" state="1" edges="143525633 143525649#1 576484873#0 31371344#0 31368584#0"/>
+    <route id="f6b" state="1" edges="673384660#0 262764311#0 181344171#0 121643106#0"/>
+    <route id="f8a" state="1" edges="143525645#0 576484872 143525644 143525638 143519876 641158909#0"/>
+    <route id="f8b" state="1" edges="143525645#0 576484872 31380964#0"/>
+    <flowState id="test1" index="0"/>
+    <delay number="0" begin="368" end="0" depart="0.00" time="0.00"/>
+    <vType id="BUS" length="12.00" minGap="3.00" maxSpeed="13.80" vClass="bus" guiShape="bus" color="yellow" lcStrategic="2.0" lcCooperative="0.0" lcSpeedGain="0.0" lcOpposite="0.0" accel="0.49" decel="4" sigma="0">
+        <param key="has.rerouting.device" value="false"/>
+    </vType>
+    <vType id="CAR" length="4.30" minGap="2.00" maxSpeed="16.00" speedFactor="normc(1.00,0.10,0.20,2.00)" guiShape="passenger/hatchback" color="magenta" accel="2.22" decel="4.2" sigma="0"/>
+    <vType id="DEFAULT_BIKETYPE" vClass="bicycle"/>
+    <vType id="DEFAULT_PEDTYPE" vClass="pedestrian"/>
+    <vType id="DEFAULT_VEHTYPE"/>
+    <vehicle id="1142" type="BUS" depart="40.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1142_1" type="BUS" depart="40.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1145" type="BUS" depart="571.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1145_1" type="BUS" depart="571.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1146" type="BUS" depart="457.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1146_1" type="BUS" depart="3840.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1146_2" type="BUS" depart="457.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1146_3" type="BUS" depart="3840.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1152" type="BUS" depart="3103.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1152_1" type="BUS" depart="3103.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1153" type="BUS" depart="2982.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1153_1" type="BUS" depart="2982.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1154" type="BUS" depart="2327.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1154_1" type="BUS" depart="2327.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1155" type="BUS" depart="313.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1155_1" type="BUS" depart="3435.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1155_2" type="BUS" depart="313.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1155_3" type="BUS" depart="3435.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1203" type="BUS" depart="664.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1203_1" type="BUS" depart="664.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1213" type="BUS" depart="1524.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1213_1" type="BUS" depart="1524.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1227" type="BUS" depart="1221.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1227_1" type="BUS" depart="6006.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1227_2" type="BUS" depart="1221.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1227_3" type="BUS" depart="6006.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1229" type="BUS" depart="2555.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1229_1" type="BUS" depart="2555.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1233" type="BUS" depart="2349.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1233_1" type="BUS" depart="2349.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1239" type="BUS" depart="1752.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1239_1" type="BUS" depart="1752.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1258" type="BUS" depart="6421.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1258_1" type="BUS" depart="6421.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1262" type="BUS" depart="647.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1262_1" type="BUS" depart="4466.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1262_2" type="BUS" depart="647.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1262_3" type="BUS" depart="4466.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1285" type="BUS" depart="1072.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1285_1" type="BUS" depart="1072.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1304" type="BUS" depart="3124.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1304_1" type="BUS" depart="3124.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1325" type="BUS" depart="4504.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1325_1" type="BUS" depart="4504.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1334" type="BUS" depart="5814.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1334_1" type="BUS" depart="5814.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1348" type="BUS" depart="3480.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1348_1" type="BUS" depart="3480.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1393" type="BUS" depart="1681.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1393_1" type="BUS" depart="1681.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1404" type="BUS" depart="6237.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1404_1" type="BUS" depart="6237.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1405" type="BUS" depart="655.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1405_1" type="BUS" depart="5461.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1405_2" type="BUS" depart="655.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1405_3" type="BUS" depart="5461.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1409" type="BUS" depart="1402.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1409_1" type="BUS" depart="4860.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1409_2" type="BUS" depart="1402.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1409_3" type="BUS" depart="4860.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1411" type="BUS" depart="5766.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1411_1" type="BUS" depart="5766.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1412" type="BUS" depart="297.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1412_1" type="BUS" depart="297.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1419" type="BUS" depart="2824.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1419_1" type="BUS" depart="2824.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1443" type="BUS" depart="5063.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1443_1" type="BUS" depart="5063.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1446" type="BUS" depart="62.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1446_1" type="BUS" depart="62.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1457" type="BUS" depart="2098.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1457_1" type="BUS" depart="2098.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1496" type="BUS" depart="2474.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1496_1" type="BUS" depart="2474.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1498" type="BUS" depart="304.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1498_1" type="BUS" depart="6790.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1498_2" type="BUS" depart="304.00" route="24_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1498_3" type="BUS" depart="6790.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1499" type="BUS" depart="6534.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1499_1" type="BUS" depart="6534.00" route="24_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1513" type="BUS" depart="4737.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1513_1" type="BUS" depart="4737.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1535" type="BUS" depart="6034.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1535_1" type="BUS" depart="6034.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="1566" type="BUS" depart="5696.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="1566_1" type="BUS" depart="5696.00" route="74_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="194122" type="BUS" depart="5971.00" route="105_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="194122_1" type="BUS" depart="5971.00" route="105_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="194145" type="BUS" depart="4926.00" route="105_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="194145_1" type="BUS" depart="4926.00" route="105_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="194163" type="BUS" depart="3514.00" route="105_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="194163_1" type="BUS" depart="3514.00" route="105_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="19628" type="BUS" depart="1702.00" route="105_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="19628_1" type="BUS" depart="1702.00" route="105_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="19678" type="BUS" depart="4054.00" route="105_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="19678_1" type="BUS" depart="4054.00" route="105_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="19702" type="BUS" depart="436.00" route="105_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="19702_1" type="BUS" depart="436.00" route="105_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3574" type="BUS" depart="4778.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3574_1" type="BUS" depart="4778.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3587" type="BUS" depart="500.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3587_1" type="BUS" depart="500.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3606" type="BUS" depart="876.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3606_1" type="BUS" depart="876.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3608" type="BUS" depart="3437.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3608_1" type="BUS" depart="3437.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3610" type="BUS" depart="6092.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3610_1" type="BUS" depart="6092.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3636" type="BUS" depart="742.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3636_1" type="BUS" depart="6247.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3636_2" type="BUS" depart="742.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3636_3" type="BUS" depart="6247.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3643" type="BUS" depart="1236.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3643_1" type="BUS" depart="1236.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3651" type="BUS" depart="2704.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3651_1" type="BUS" depart="2704.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3657" type="BUS" depart="5414.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3657_1" type="BUS" depart="5414.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3660" type="BUS" depart="3848.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3660_1" type="BUS" depart="3848.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3663" type="BUS" depart="3343.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3663_1" type="BUS" depart="3343.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3674" type="BUS" depart="198.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3674_1" type="BUS" depart="198.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3675" type="BUS" depart="2321.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3675_1" type="BUS" depart="2321.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3680" type="BUS" depart="4636.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3680_1" type="BUS" depart="4636.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3694" type="BUS" depart="44.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3694_1" type="BUS" depart="44.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3699" type="BUS" depart="2130.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3699_1" type="BUS" depart="2130.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3700" type="BUS" depart="1410.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3700_1" type="BUS" depart="1410.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3704" type="BUS" depart="4087.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3704_1" type="BUS" depart="4087.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3788" type="BUS" depart="189.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3788_1" type="BUS" depart="4828.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3788_2" type="BUS" depart="189.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3788_3" type="BUS" depart="4828.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3867" type="BUS" depart="4556.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3867_1" type="BUS" depart="4556.00" route="191_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="3873" type="BUS" depart="2446.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="3873_1" type="BUS" depart="2446.00" route="191_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6224" type="BUS" depart="599.00" route="181_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6224_1" type="BUS" depart="5587.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6224_2" type="BUS" depart="599.00" route="181_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6224_3" type="BUS" depart="5587.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6243" type="BUS" depart="3203.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6243_1" type="BUS" depart="6463.00" route="181_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6243_2" type="BUS" depart="3203.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6243_3" type="BUS" depart="6463.00" route="181_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6251" type="BUS" depart="5440.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6251_1" type="BUS" depart="5440.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6252" type="BUS" depart="2777.00" route="181_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6252_1" type="BUS" depart="2777.00" route="181_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6254" type="BUS" depart="1358.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6254_1" type="BUS" depart="1358.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6255" type="BUS" depart="778.00" route="181_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6255_1" type="BUS" depart="6504.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6255_2" type="BUS" depart="778.00" route="181_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6255_3" type="BUS" depart="6504.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6256" type="BUS" depart="4919.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6256_1" type="BUS" depart="4919.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6257" type="BUS" depart="2383.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6257_1" type="BUS" depart="5969.00" route="181_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6257_2" type="BUS" depart="2383.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6257_3" type="BUS" depart="5969.00" route="181_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6263" type="BUS" depart="657.00" route="181_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6263_1" type="BUS" depart="657.00" route="181_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6265" type="BUS" depart="3963.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6265_1" type="BUS" depart="3963.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6267" type="BUS" depart="3576.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6267_1" type="BUS" depart="3576.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6270" type="BUS" depart="383.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6270_1" type="BUS" depart="3242.00" route="181_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6270_2" type="BUS" depart="383.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6270_3" type="BUS" depart="3242.00" route="181_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6278" type="BUS" depart="4578.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6278_1" type="BUS" depart="4578.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6283" type="BUS" depart="1084.00" route="181_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6283_1" type="BUS" depart="1084.00" route="181_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6850" type="BUS" depart="303.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="mayakovskogo" duration="5.00"/>
+        <stop busStop="zhukovskogo_22" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6850_1" type="BUS" depart="303.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6852" type="BUS" depart="5293.00" route="22_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6852_1" type="BUS" depart="5293.00" route="22_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6855" type="BUS" depart="2013.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="mayakovskogo" duration="5.00"/>
+        <stop busStop="zhukovskogo_22" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6855_1" type="BUS" depart="2013.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6856" type="BUS" depart="2653.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="mayakovskogo" duration="5.00"/>
+        <stop busStop="zhukovskogo_22" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6856_1" type="BUS" depart="2653.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6857" type="BUS" depart="4360.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="mayakovskogo" duration="5.00"/>
+        <stop busStop="zhukovskogo_22" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6857_1" type="BUS" depart="4360.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6893" type="BUS" depart="1397.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="mayakovskogo" duration="5.00"/>
+        <stop busStop="zhukovskogo_22" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6893_1" type="BUS" depart="1397.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6898" type="BUS" depart="387.00" route="22_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6898_1" type="BUS" depart="5085.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="mayakovskogo" duration="5.00"/>
+        <stop busStop="zhukovskogo_22" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6898_2" type="BUS" depart="387.00" route="22_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6898_3" type="BUS" depart="5085.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6900" type="BUS" depart="4244.00" route="15" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_2" duration="5.00"/>
+        <stop busStop="zhukovskovgo_15" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6900_1" type="BUS" depart="4244.00" route="15" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6911" type="BUS" depart="241.00" route="15" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_2" duration="5.00"/>
+        <stop busStop="zhukovskovgo_15" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6911_1" type="BUS" depart="241.00" route="15" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6913" type="BUS" depart="6173.00" route="15" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_2" duration="5.00"/>
+        <stop busStop="zhukovskovgo_15" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6913_1" type="BUS" depart="6173.00" route="15" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6925" type="BUS" depart="789.00" route="15" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_2" duration="5.00"/>
+        <stop busStop="zhukovskovgo_15" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6925_1" type="BUS" depart="789.00" route="15" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6929" type="BUS" depart="220.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6929_1" type="BUS" depart="4029.00" route="27_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6929_2" type="BUS" depart="220.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6929_3" type="BUS" depart="4029.00" route="27_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6934" type="BUS" depart="4471.00" route="15" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_2" duration="5.00"/>
+        <stop busStop="zhukovskovgo_15" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6934_1" type="BUS" depart="4471.00" route="15" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6936" type="BUS" depart="1266.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6936_1" type="BUS" depart="5102.00" route="27_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6936_2" type="BUS" depart="1266.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6936_3" type="BUS" depart="5102.00" route="27_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6943" type="BUS" depart="2821.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6943_1" type="BUS" depart="2821.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6944" type="BUS" depart="2729.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6944_1" type="BUS" depart="6623.00" route="27_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6944_2" type="BUS" depart="2729.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6944_3" type="BUS" depart="6623.00" route="27_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6951" type="BUS" depart="6855.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6951_1" type="BUS" depart="6855.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6954" type="BUS" depart="4977.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6954_1" type="BUS" depart="4977.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6956" type="BUS" depart="4424.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6956_1" type="BUS" depart="4424.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6958" type="BUS" depart="6460.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6958_1" type="BUS" depart="6460.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6964" type="BUS" depart="5756.00" route="15" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_2" duration="5.00"/>
+        <stop busStop="zhukovskovgo_15" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6964_1" type="BUS" depart="5756.00" route="15" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6965" type="BUS" depart="6250.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6965_1" type="BUS" depart="6250.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6975" type="BUS" depart="592.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6975_1" type="BUS" depart="592.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6976" type="BUS" depart="897.00" route="27_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6976_1" type="BUS" depart="897.00" route="27_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6977" type="BUS" depart="2403.00" route="27_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6977_1" type="BUS" depart="2403.00" route="27_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6978" type="BUS" depart="6067.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6978_1" type="BUS" depart="6067.00" route="181_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6983" type="BUS" depart="1488.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6983_1" type="BUS" depart="5446.00" route="27_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6983_2" type="BUS" depart="1488.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6983_3" type="BUS" depart="5446.00" route="27_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6987" type="BUS" depart="5388.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6987_1" type="BUS" depart="5388.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6991" type="BUS" depart="722.00" route="27_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6991_1" type="BUS" depart="6568.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6991_2" type="BUS" depart="722.00" route="27_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6991_3" type="BUS" depart="6568.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6992" type="BUS" depart="4040.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6992_1" type="BUS" depart="4040.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6994" type="BUS" depart="941.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6994_1" type="BUS" depart="941.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6996" type="BUS" depart="748.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6996_1" type="BUS" depart="3569.00" route="27_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6996_2" type="BUS" depart="748.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6996_3" type="BUS" depart="3569.00" route="27_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="6998" type="BUS" depart="295.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="6998_1" type="BUS" depart="295.00" route="27_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7130" type="BUS" depart="1762.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7130_1" type="BUS" depart="3332.00" route="65_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7130_2" type="BUS" depart="1762.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7130_3" type="BUS" depart="3332.00" route="65_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7132" type="BUS" depart="5010.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7132_1" type="BUS" depart="5010.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7135" type="BUS" depart="6218.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7135_1" type="BUS" depart="6218.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7145" type="BUS" depart="2190.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="mayakovskogo" duration="5.00"/>
+        <stop busStop="zhukovskogo_22" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7145_1" type="BUS" depart="2190.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7154" type="BUS" depart="5413.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7154_1" type="BUS" depart="5413.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7172" type="BUS" depart="1641.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7172_1" type="BUS" depart="4996.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7172_2" type="BUS" depart="1641.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7172_3" type="BUS" depart="4996.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7181" type="BUS" depart="4767.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="mayakovskogo" duration="5.00"/>
+        <stop busStop="zhukovskogo_22" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7181_1" type="BUS" depart="4767.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7185" type="BUS" depart="1583.00" route="22_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7185_1" type="BUS" depart="6349.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="mayakovskogo" duration="5.00"/>
+        <stop busStop="zhukovskogo_22" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7185_2" type="BUS" depart="1583.00" route="22_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7185_3" type="BUS" depart="6349.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7186" type="BUS" depart="805.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7186_1" type="BUS" depart="805.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7188" type="BUS" depart="3689.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="mayakovskogo" duration="5.00"/>
+        <stop busStop="zhukovskogo_22" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7188_1" type="BUS" depart="3689.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7189" type="BUS" depart="4894.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7189_1" type="BUS" depart="4894.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7223" type="BUS" depart="5190.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7223_1" type="BUS" depart="5190.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7227" type="BUS" depart="4040.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7227_1" type="BUS" depart="5005.00" route="65_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7227_2" type="BUS" depart="4040.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7227_3" type="BUS" depart="5005.00" route="65_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7231" type="BUS" depart="1307.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7231_1" type="BUS" depart="4722.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7231_2" type="BUS" depart="1307.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7231_3" type="BUS" depart="4722.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7233" type="BUS" depart="2917.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7233_1" type="BUS" depart="2917.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7247" type="BUS" depart="5854.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7247_1" type="BUS" depart="5854.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7248" type="BUS" depart="630.00" route="65_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7248_1" type="BUS" depart="5695.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7248_2" type="BUS" depart="630.00" route="65_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7248_3" type="BUS" depart="5695.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7254" type="BUS" depart="2932.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="mayakovskogo" duration="5.00"/>
+        <stop busStop="zhukovskogo_22" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7254_1" type="BUS" depart="2932.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7356" type="BUS" depart="49.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7356_1" type="BUS" depart="49.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7367" type="BUS" depart="1313.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7367_1" type="BUS" depart="3029.00" route="65_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7367_2" type="BUS" depart="1313.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7367_3" type="BUS" depart="3029.00" route="65_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7368" type="BUS" depart="4852.00" route="22_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7368_1" type="BUS" depart="4852.00" route="22_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7380" type="BUS" depart="4288.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7380_1" type="BUS" depart="4288.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7381" type="BUS" depart="220.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7381_1" type="BUS" depart="3092.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7381_2" type="BUS" depart="220.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7381_3" type="BUS" depart="3092.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7383" type="BUS" depart="747.00" route="22_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7383_1" type="BUS" depart="6904.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="mayakovskogo" duration="5.00"/>
+        <stop busStop="zhukovskogo_22" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7383_2" type="BUS" depart="747.00" route="22_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7383_3" type="BUS" depart="6904.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7387" type="BUS" depart="6082.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7387_1" type="BUS" depart="6082.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7388" type="BUS" depart="3213.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7388_1" type="BUS" depart="3213.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7450" type="BUS" depart="6833.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7450_1" type="BUS" depart="6833.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7459" type="BUS" depart="7048.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7459_1" type="BUS" depart="7048.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7468" type="BUS" depart="992.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="mayakovskogo" duration="5.00"/>
+        <stop busStop="zhukovskogo_22" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7468_1" type="BUS" depart="992.00" route="22_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7495" type="BUS" depart="3992.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7495_1" type="BUS" depart="3992.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7511" type="BUS" depart="3906.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7511_1" type="BUS" depart="3906.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7516" type="BUS" depart="323.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7516_1" type="BUS" depart="323.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7522" type="BUS" depart="2425.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7522_1" type="BUS" depart="2425.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7532" type="BUS" depart="3374.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7532_1" type="BUS" depart="3374.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7549" type="BUS" depart="2211.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7549_1" type="BUS" depart="2211.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7550" type="BUS" depart="2192.00" route="22_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7550_1" type="BUS" depart="2192.00" route="22_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7551" type="BUS" depart="231.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7551_1" type="BUS" depart="3634.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7551_2" type="BUS" depart="231.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7551_3" type="BUS" depart="3634.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7567" type="BUS" depart="3661.00" route="22_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="bkz" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7567_1" type="BUS" depart="3661.00" route="22_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7572" type="BUS" depart="4513.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7572_1" type="BUS" depart="4513.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7597" type="BUS" depart="2246.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="vosst_1" duration="5.00"/>
+        <stop busStop="liteyny_1" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7597_1" type="BUS" depart="5620.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="liteyny_0" duration="5.00"/>
+        <stop busStop="vosst_0" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7597_2" type="BUS" depart="2246.00" route="3_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7597_3" type="BUS" depart="5620.00" route="3_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7651" type="BUS" depart="803.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="railway_1" duration="5.00"/>
+        <stop busStop="suvorov_0" duration="5.00"/>
+        <stop busStop="poltav_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7651_1" type="BUS" depart="2403.00" route="65_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00">
+        <stop busStop="poltav_1" duration="5.00"/>
+        <stop busStop="suvorov_1" duration="5.00"/>
+        <stop busStop="railway_0" duration="5.00"/>
+    </vehicle>
+    <vehicle id="7651_2" type="BUS" depart="803.00" route="65_b" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <vehicle id="7651_3" type="BUS" depart="2403.00" route="65_a" speedFactor="1.00" state="9223372036854775807 0 -1.00 0 0" pos="0.00" speed="0.00" posLat="0.00"/>
+    <lane id=":1562060908_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463027_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463027_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463027_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463029_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463029_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463029_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463029_2_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463029_2_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463036_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463036_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463036_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463036_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463036_3_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463036_5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463036_6_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463047_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463047_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463047_0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463047_0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463047_0_4">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463051_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463051_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463051_0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463051_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463051_3_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463068_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463068_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463068_0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463068_0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463068_0_4">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463068_5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463068_5_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463068_5_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463091_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463091_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463091_0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463091_0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463091_0_4">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463091_5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463096_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463096_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463096_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463096_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463096_3_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463096_3_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463096_3_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463115_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463115_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463115_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463115_2_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463115_2_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463115_2_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463137_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570463137_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574334_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574334_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574334_0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574334_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574334_8_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574334_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574334_5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574334_6_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574334_7_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574351_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574351_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574351_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574351_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574351_3_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574351_3_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574382_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574382_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574382_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574382_2_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574382_2_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1570574382_2_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1573794602_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1573794602_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1573794602_1_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1573794602_1_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1573794606_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1573794606_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1573794606_1_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1573794606_1_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1701377591_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1701377591_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1701377591_0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1701377591_0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1829591308_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1829591308_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1829591308_0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1829591308_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1834948819_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1834948819_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1834948819_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":1908472456_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742662_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742662_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742662_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742662_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742662_6_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742662_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742662_5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742662_7_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742663_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742663_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742663_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742663_6_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742663_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742663_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742663_5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742663_7_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742663_8_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742664_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742664_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742664_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742664_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742664_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21742664_5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21991233_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21991233_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21991233_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21991233_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21991233_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21991233_4_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21991233_6_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21991233_11_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21991233_7_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21991233_7_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21991233_9_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21991233_10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21991233_12_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":21991233_13_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":22313455_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":22313455_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":22313455_1_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":22313455_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":22313455_12_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":22313455_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":22313455_5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":22313455_5_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":22313455_7_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":22313455_8_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":22313455_8_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":22313455_10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":22313455_11_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":22313455_13_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":22313455_14_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":22317223_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":22317223_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":22317223_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":223698_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":223698_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":223698_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":223698_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":223698_11_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":223698_12_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":223698_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":223698_5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":223698_6_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":223698_13_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":223698_7_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":223698_8_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":223698_8_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":223698_10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":223698_14_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":249083715_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":249083715_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":249083715_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":249083715_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":249083715_3_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":249083715_3_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":249083715_3_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":249083715_3_4">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":25894358_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":25894358_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":25894358_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":25894359_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":25894359_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":25894359_0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":25894359_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":2684183308_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":2684183308_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":2813452191_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":2980000994_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":2980000994_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":2980000994_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":2980000994_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":2980000994_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":2980000994_5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307319_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307319_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307319_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307319_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307346_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307351_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307351_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307351_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307351_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307351_12_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307351_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307351_5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307351_5_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307351_7_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307351_13_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307351_8_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307351_8_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307351_10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307351_11_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307351_14_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307351_15_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307539_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307539_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307539_1_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307539_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307539_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307539_15_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307539_5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307539_6_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307539_6_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307539_8_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307539_9_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307539_16_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307539_17_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307539_10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307539_11_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307539_11_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307539_13_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307539_14_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307539_18_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307539_19_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":307545_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":332683_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":3992249173_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":420405764_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":4246150192_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":4317455964_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":4317455964_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":498675556_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":498675556_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":498675556_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":498675556_2_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":498675556_2_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":5000322620_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":5000322620_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":5002044017_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":5002044017_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":5002044018_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":5002044018_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":5002044018_0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":5002053132_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":5002053132_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":5241049423_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":5267719342_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":5267719342_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":5267719342_0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":5267719342_0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":5267719342_0_4">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":5267719342_0_5">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":598175812_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":598175812_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":598175812_0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":598175812_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":598175812_3_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":6239279466_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":6239279466_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":6239279466_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":6239279466_2_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":764657685_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1560991754_5000322607_5000322608_5000322609_5000322610_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1560991754_5000322607_5000322608_5000322609_5000322610_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1560991754_5000322607_5000322608_5000322609_5000322610_1_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1560991754_5000322607_5000322608_5000322609_5000322610_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1560991754_5000322607_5000322608_5000322609_5000322610_13_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1560991754_5000322607_5000322608_5000322609_5000322610_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1560991754_5000322607_5000322608_5000322609_5000322610_4_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1560991754_5000322607_5000322608_5000322609_5000322610_4_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1560991754_5000322607_5000322608_5000322609_5000322610_7_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1560991754_5000322607_5000322608_5000322609_5000322610_8_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1560991754_5000322607_5000322608_5000322609_5000322610_14_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1560991754_5000322607_5000322608_5000322609_5000322610_15_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1560991754_5000322607_5000322608_5000322609_5000322610_9_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1560991754_5000322607_5000322608_5000322609_5000322610_10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1560991754_5000322607_5000322608_5000322609_5000322610_11_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1560991754_5000322607_5000322608_5000322609_5000322610_12_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1560991754_5000322607_5000322608_5000322609_5000322610_16_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_1_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_1_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_24_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_5_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_5_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_5_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_9_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_11_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_12_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_13_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_14_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_14_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_14_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_14_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_18_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_19_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_20_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_21_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_21_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463080_1570463087_1570574347_1570574349_21_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463118_1570574363_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463118_1570574363_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463118_1570574363_1_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463118_1570574363_1_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463118_1570574363_1_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463118_1570574363_5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463118_1570574363_6_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463118_1570574363_6_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463118_1570574363_6_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463118_1570574363_6_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463118_1570574363_10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463118_1570574363_11_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463128_1570574377_6306053996_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463128_1570574377_6306053996_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463128_1570574377_6306053996_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463128_1570574377_6306053996_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463128_1570574377_6306053996_3_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463128_1570574377_6306053996_3_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463128_1570574377_6306053996_3_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463128_1570574377_6306053996_7_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463128_1570574377_6306053996_7_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463128_1570574377_6306053996_9_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463128_1570574377_6306053996_10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463128_1570574377_6306053996_10_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463128_1570574377_6306053996_10_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463128_1570574377_6306053996_10_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463134_1570574386_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463134_1570574386_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463134_1570574386_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463134_1570574386_2_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463134_1570574386_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463134_1570574386_5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463134_1570574386_6_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463134_1570574386_6_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463134_1570574386_6_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463134_1570574386_6_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463134_1570574386_10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463134_1570574386_11_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463134_1570574386_11_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463134_1570574386_11_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463134_1570574386_11_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463134_1570574386_15_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570463134_1570574386_16_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570574343_5002044024_5002044025_5002044026_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570574343_5002044024_5002044025_5002044026_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570574343_5002044024_5002044025_5002044026_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570574343_5002044024_5002044025_5002044026_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570574343_5002044024_5002044025_5002044026_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570574343_5002044024_5002044025_5002044026_5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570574343_5002044024_5002044025_5002044026_6_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570574343_5002044024_5002044025_5002044026_6_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570574343_5002044024_5002044025_5002044026_6_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570574343_5002044024_5002044025_5002044026_9_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570574343_5002044024_5002044025_5002044026_13_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570574343_5002044024_5002044025_5002044026_10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570574343_5002044024_5002044025_5002044026_11_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570574343_5002044024_5002044025_5002044026_12_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570574343_5002044024_5002044025_5002044026_14_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1570574343_5002044024_5002044025_5002044026_15_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794592_5000281688_5000281691_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794592_5000281688_5000281691_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794592_5000281688_5000281691_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794592_5000281688_5000281691_14_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794592_5000281688_5000281691_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794592_5000281688_5000281691_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794592_5000281688_5000281691_4_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794592_5000281688_5000281691_6_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794592_5000281688_5000281691_7_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794592_5000281688_5000281691_8_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794592_5000281688_5000281691_8_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794592_5000281688_5000281691_10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794592_5000281688_5000281691_11_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794592_5000281688_5000281691_12_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794592_5000281688_5000281691_13_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794592_5000281688_5000281691_15_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794597_1573794598_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794597_1573794598_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794597_1573794598_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794597_1573794598_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794597_1573794598_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794597_1573794598_4_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794597_1573794598_4_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794597_1573794598_7_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794597_1573794598_8_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794597_1573794598_9_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1573794597_1573794598_10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591301_5002051113_5002053133_5002053134_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591301_5002051113_5002053133_5002053134_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591301_5002051113_5002053133_5002053134_0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591301_5002051113_5002053133_5002053134_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591301_5002051113_5002053133_5002053134_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591301_5002051113_5002053133_5002053134_5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591301_5002051113_5002053133_5002053134_17_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591301_5002051113_5002053133_5002053134_18_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591301_5002051113_5002053133_5002053134_19_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591301_5002051113_5002053133_5002053134_6_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591301_5002051113_5002053133_5002053134_7_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591301_5002051113_5002053133_5002053134_8_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591301_5002051113_5002053133_5002053134_9_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591301_5002051113_5002053133_5002053134_10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591301_5002051113_5002053133_5002053134_10_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591301_5002051113_5002053133_5002053134_12_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591301_5002051113_5002053133_5002053134_13_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591301_5002051113_5002053133_5002053134_14_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591301_5002051113_5002053133_5002053134_14_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591301_5002051113_5002053133_5002053134_14_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591316_1957501232_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591316_1957501232_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591316_1957501232_1_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591316_1957501232_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591316_1957501232_11_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591316_1957501232_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591316_1957501232_4_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591316_1957501232_6_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591316_1957501232_7_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591316_1957501232_8_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591316_1957501232_9_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591316_1957501232_10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591316_1957501232_12_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_1829591316_1957501232_13_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_223697_6239279474_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_223697_6239279474_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_223697_6239279474_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_223697_6239279474_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_223697_6239279474_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_223697_6239279474_5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_223697_6239279474_6_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_223697_6239279474_11_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_223697_6239279474_7_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_223697_6239279474_8_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_223697_6239279474_8_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_223697_6239279474_10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_276639_6239279475_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_276639_6239279475_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_276639_6239279475_1_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_276639_6239279475_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_276639_6239279475_8_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_276639_6239279475_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_276639_6239279475_4_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_276639_6239279475_6_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_276639_6239279475_7_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_276639_6239279475_9_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_276639_6239279475_10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000322617_5000322618_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000322617_5000322618_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000322617_5000322618_1_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000322617_5000322618_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000322617_5000322618_10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000322617_5000322618_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000322617_5000322618_4_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000322617_5000322618_4_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000322617_5000322618_4_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000322617_5000322618_8_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000322617_5000322618_9_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000322617_5000322618_11_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000322617_5000322618_12_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000329622_5000329623_5000329624_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000329622_5000329623_5000329624_0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000329622_5000329623_5000329624_0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000329622_5000329623_5000329624_0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000329622_5000329623_5000329624_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000329622_5000329623_5000329624_5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000329622_5000329623_5000329624_6_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000329622_5000329623_5000329624_7_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000329622_5000329623_5000329624_8_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000329622_5000329623_5000329624_9_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000329622_5000329623_5000329624_9_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000329622_5000329623_5000329624_9_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5000329622_5000329623_5000329624_9_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_5_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_5_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_8_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_9_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_20_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_21_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_11_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_12_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_13_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_22_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_23_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_14_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_15_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_15_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_15_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_18_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_19_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_24_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id=":cluster_5501341532_5501341533_5501341534_5501341535_25_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-121643106#11_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-121643106#11_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-121643135#2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-129212177#3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-129212177#3_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-129212177#8_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-129212177#8_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-154418410#1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-172555961#11_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-172555961#11_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-172555961#16_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-172555961#16_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-172801634#2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-181344178#12_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-181344178#12_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-31389783#2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-31389783#2_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-31396430#2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-31396430#3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-31396430#5_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-31397685#3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-31397685#3_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-31398948#1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-31398948#1_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-33039489#2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-392286922_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-392286922_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-425300091#2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-425300091#2_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-427930952#1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="-427930952#1_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="121643106#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="121643106#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="121643135#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="128666209#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="129211291#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="129211291#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="129212177#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="129212177#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="129212177#4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="129212177#4_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519853_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519853_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519853_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519853_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519856#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519856#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519856#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519856#0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519861#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519861#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519861#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519868_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519868_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519868_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519868_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519868_4">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519870#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519870#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519870#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519871_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519871_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519871_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519871_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519871_4">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519872#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519872#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519872#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519872#0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519873#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519874_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519875_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519876_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519876_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519876_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143519877_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525633_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525633_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525633_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525633_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525638_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525638_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525638_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525644_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525644_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525644_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525645#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525645#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525645#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525645#0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525646#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525646#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525646#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525646#0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525649#1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525649#1_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525649#1_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525649#1_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525651#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525651#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525651#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143525651#0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143818833#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143818836_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143818839#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143818841#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143818841#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143818841#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143818842#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="143818842#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="154418410#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="160338253#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="160338253#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="160338253#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="160338253#3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="160338253#3_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="160338253#3_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="170838172#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="170838172#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172005094#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172005094#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172005094#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172313571#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172313571#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172313571#10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172313571#10_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172313571#7_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172313571#7_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172346023#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172346023#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172346025#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172346025#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172555956#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172555956#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172555961#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172555961#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172555961#12_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172555961#12_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172605900#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="172801634#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="178568773_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="178568773_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="178568773_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="178568773_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="178568773_4">
+        <vehicles value=""/>
+    </lane>
+    <lane id="181344171#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="181344171#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="181344171#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="181344171#0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="181344178#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="181344178#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="181344179#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="181344179#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="181985395#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="181985395#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="181985395#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="185184926#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="185184926#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="185184926#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="221310231#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="23141385#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="251949580_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="251949580_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="262764311#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="262764311#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="262764311#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="262764311#0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="262764315_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="262764315_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="262764315_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="262764316_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="262764316_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="262764316_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="262764316_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="262764319#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="262764319#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="262764319#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="294399527#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="294399542#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="299168659#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="299168659#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="299168659#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="299168659#0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="299168659#0_4">
+        <vehicles value=""/>
+    </lane>
+    <lane id="305097479#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31368584#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31368584#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31368931#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31368931#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31368931#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31368931#0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31371344#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31371344#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31380278#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31380278#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31380278#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31380278#1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31380278#1_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31380278#1_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31380964#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31380964#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31380964#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31380964#0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31380964#0_4">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31389783#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31389783#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31396430#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31396430#3_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31396430#4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31397685#1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31397685#1_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31398948#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="31398948#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="33039489#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="333879407#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="333879407#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="333879407#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="333879408_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="333879408_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="333879408_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="346882568_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="346882568_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="392286922_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="392286922_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="425300091#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="425300091#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="427930952#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="427930952#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="4461214_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="4462098#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="4462098#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="467812638_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="467812638_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="467812638_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="46831845_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="468646555#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="468646555#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="490726491#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="490726491#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="495004519#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="495004519#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="495004519#2_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="495004519#2_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="495004520#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="495004520#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511111436#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511111437#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511111437#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511116162#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511116164#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511116164#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511116165#1_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511116165#1_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511116165#1_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511116165#1_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511317705#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511317705#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511336033#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511336035#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511336035#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511336036#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511336036#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511336036#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511336972#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511336972#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511336972#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511336972#4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511336972#4_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511336972#4_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511336976#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511336976#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511336976#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511336976#4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511336976#4_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="511336976#4_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="519228620#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="519228620#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="519228620#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="519231682#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="519231682#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="519231682#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="544989443#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="544989443#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="544989443#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="544989443#0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="544989443#0_4">
+        <vehicles value=""/>
+    </lane>
+    <lane id="544989443#0_5">
+        <vehicles value=""/>
+    </lane>
+    <lane id="544989444#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="544989444#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="544989444#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="544989444#0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="544989444#0_4">
+        <vehicles value=""/>
+    </lane>
+    <lane id="576484870_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="576484870_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="576484870_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="576484870_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="576484872_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="576484872_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="576484872_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="576484872_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="576484873#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="576484873#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="576484873#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="576484873#0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="641153546_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="641153547_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="641153547_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="641158909#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="641158909#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="641158909#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="641158909#0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="666418527#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="666418527#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="666418527#10_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="666418527#10_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="666418527#4_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="666418527#4_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="673384655_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="673384655_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="673384660#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="673384660#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="673384660#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="673384660#0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="71393231#0_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="71393231#0_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="71393231#0_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="71393231#0_3">
+        <vehicles value=""/>
+    </lane>
+    <lane id="86337054_0">
+        <vehicles value=""/>
+    </lane>
+    <lane id="86337054_1">
+        <vehicles value=""/>
+    </lane>
+    <lane id="86337054_2">
+        <vehicles value=""/>
+    </lane>
+    <lane id="86337054_3">
+        <vehicles value=""/>
+    </lane>
+</snapshot>

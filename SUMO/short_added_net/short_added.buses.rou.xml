@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Full list of routes: 3 7 15 22 24 27 65 74 105 181 191
+Irrelevant routes: 26 54 76 91 141
+Notes:
+26 (which is eq to 76, 91, 141) 54 is irrelevant
+74 (~105) is almost irrelevant (while no bkz_0,1)
+27, 191 is equivalent to 24 (a, b)
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <route id="15" edges="346882568 172005094#0 262764319#0 181985395#0 262764316 143519856#0 576484870 262764311#0 181344171#0 121643106#0 31389783#0">
+       <stop busStop="bkz" duration="5"/>
+       <stop busStop="vosst_1" duration="5"/>
+       <stop busStop="liteyny_2" duration="5"/>
+       <stop busStop="zhukovskovgo_15" duration="5"/>
+    </route>
+    <route id="22_a" color="1,1,0" edges="427930952#0 129212177#0 129212177#4 172005094#0 262764319#0 181985395#0 262764316 143519856#0 576484870 262764311#0 181344171#0 143519872#0 143519853">
+       <!-- to be longered -->
+       <stop busStop="bkz" duration="5"/>
+       <stop busStop="vosst_1" duration="5"/>
+       <stop busStop="liteyny_1" duration="5"/>
+    </route>
+    <route id="22_b" color="1,1,0" edges="143525633 143525649#1 576484873#0 143525651#0 181344179#0 181344178#0 -427930952#1">
+       <!-- to be longered -->
+       <stop busStop="liteyny_0" duration="5"/>
+       <stop busStop="mayakovskogo" duration="5"/>
+       <stop busStop="zhukovskogo_22" duration="5"/>
+    </route>
+    <route id="24_a" color="1,1,0" edges="468646555#0 143818841#0 160338253#0 160338253#3 143519861#0 143519870#0 544989444#0 143519871 143519868 143519856#0 576484870 262764311#0 181344171#0 143519872#0 143519853">
+       <!-- to be longered -->
+       <stop busStop="poltav_1" duration="5"/>
+       <stop busStop="suvorov_1" duration="5"/>
+       <stop busStop="vosst_1" duration="5"/>
+       <stop busStop="liteyny_1" duration="5"/>
+    </route>
+    <route id="24_b" color="1,1,0" edges="143525633 143525649#1 576484873#0 143525651#0 143525646#0 143525645#0 576484872 143525644 143525638 143519877 143818833#0 143818839#0 143818842#0">
+       <!-- to be longered -->
+       <stop busStop="liteyny_0" duration="5"/>
+       <stop busStop="vosst_0" duration="5"/>
+       <stop busStop="suvorov_0" duration="5"/>
+       <stop busStop="poltav_0" duration="5"/>
+    </route>
+    <route id="3_a" color="1,1,0" edges="299168659#0 544989443#0 178568773 143519856#0 576484870 262764311#0 181344171#0 143519872#0 143519853">
+       <!-- to be longered -->
+       <stop busStop="railway_1" duration="5"/>
+       <stop busStop="vosst_1" duration="5"/>
+       <stop busStop="liteyny_1" duration="5"/>
+    </route>
+    <route id="3_b" color="1,1,0" edges="143525633 143525649#1 576484873#0 143525651#0 143525646#0 143525645#0 576484872 31380964#0">
+       <!-- to be longered -->
+       <stop busStop="liteyny_0" duration="5"/>
+       <stop busStop="vosst_0" duration="5"/>
+       <stop busStop="railway_0" duration="5"/>
+    </route>
+    <route id="7" color="1,1,0" edges="143525633 143525649#1 576484873#0 143525651#0 143525646#0 143525645#0 576484872 143525644 143525638 143519874 143519871 143519868 143519856#0 576484870 262764311#0 181344171#0 143519872#0 143519853">
+       <!-- to be longered -->
+       <stop busStop="liteyny_0" duration="5"/>
+       <stop busStop="vosst_0" duration="5"/>
+       <stop busStop="vosst_1" duration="5"/>
+       <stop busStop="liteyny_1" duration="5"/>
+    </route>
+    <route id="65_a" color="1,1,0" edges="468646555#0 143818841#0 160338253#0 160338253#3 143519861#0 143519870#0 544989444#0 143519871 143519868 31380964#0">
+       <stop busStop="poltav_1" duration="5"/>
+       <stop busStop="suvorov_1" duration="5"/>
+       <stop busStop="railway_0" duration="5"/>
+    </route>
+    <route id="65_b" color="1,1,0" edges="299168659#0 544989443#0 467812638 641153546 143519877 143818833#0 143818839#0 143818842#0">
+       <stop busStop="railway_1" duration="5"/>
+       <stop busStop="suvorov_0" duration="5"/>
+       <stop busStop="poltav_0" duration="5"/>
+    </route>
+    <route id="181_a" color="1,1,0" edges="511336036#0 143519870#0 544989444#0 143519871 143519868 143519856#0 576484870 262764311#0 181344171#0 143519872#0 143519853">
+       <!-- to be longered -->
+       <stop busStop="vosst_1" duration="5"/>
+       <stop busStop="liteyny_1" duration="5"/>
+    </route>
+    <route id="181_b" color="1,1,0" edges="143525633 143525649#1 576484873#0 143525651#0 143525646#0 143525645#0 576484872 143525644 143525638 143519877 511336033#0">
+       <!-- to be longered -->
+       <stop busStop="liteyny_0" duration="5"/>
+       <stop busStop="vosst_0" duration="5"/>
+    </route>
+    <route id="105_a" color="1,1,0" edges="427930952#0 129212177#0 129212177#4 172005094#0 262764319#0 181985395#0 262764316 31380964#0">
+       <stop busStop="bkz" duration="5"/>
+       <stop busStop="railway_0" duration="5"/>
+    </route>
+    <route id="105_b" color="1,1,0" edges="299168659#0 544989443#0 178568773 86337054 71393231#0 262764315 185184926#0 -129212177#8 -129212177#3 -427930952#1">
+       <stop busStop="railway_1" duration="5"/>
+    </route>
+
+    <!-- Equivalent routes (copy-pasted & changed id):
+        105 ~ 74
+        24 ~ 27 191
+    -->
+    <route id="74_a" color="1,1,0" edges="427930952#0 129212177#0 129212177#4 172005094#0 262764319#0 181985395#0 262764316 31380964#0">
+       <stop busStop="bkz" duration="5"/>
+       <stop busStop="railway_0" duration="5"/>
+    </route>
+    <route id="74_b" color="1,1,0" edges="299168659#0 544989443#0 178568773 86337054 71393231#0 262764315 185184926#0 -129212177#8 -129212177#3 -427930952#1">
+       <stop busStop="railway_1" duration="5"/>
+    </route>
+    <route id="27_a" color="1,1,0" edges="468646555#0 143818841#0 160338253#0 160338253#3 143519861#0 143519870#0 544989444#0 143519871 143519868 143519856#0 576484870 262764311#0 181344171#0 143519872#0 143519853">
+       <!-- to be longered -->
+       <stop busStop="poltav_1" duration="5"/>
+       <stop busStop="suvorov_1" duration="5"/>
+       <stop busStop="vosst_1" duration="5"/>
+       <stop busStop="liteyny_1" duration="5"/>
+    </route>
+    <route id="27_b" color="1,1,0" edges="143525633 143525649#1 576484873#0 143525651#0 143525646#0 143525645#0 576484872 143525644 143525638 143519877 143818833#0 143818839#0 143818842#0">
+       <!-- to be longered -->
+       <stop busStop="liteyny_0" duration="5"/>
+       <stop busStop="vosst_0" duration="5"/>
+       <stop busStop="suvorov_0" duration="5"/>
+       <stop busStop="poltav_0" duration="5"/>
+    </route>
+    <route id="191_a" color="1,1,0" edges="468646555#0 143818841#0 160338253#0 160338253#3 143519861#0 143519870#0 544989444#0 143519871 143519868 143519856#0 576484870 262764311#0 181344171#0 143519872#0 143519853">
+       <!-- to be longered -->
+       <stop busStop="poltav_1" duration="5"/>
+       <stop busStop="suvorov_1" duration="5"/>
+       <stop busStop="vosst_1" duration="5"/>
+       <stop busStop="liteyny_1" duration="5"/>
+    </route>
+    <route id="191_b" color="1,1,0" edges="143525633 143525649#1 576484873#0 143525651#0 143525646#0 143525645#0 576484872 143525644 143525638 143519877 143818833#0 143818839#0 143818842#0">
+       <!-- to be longered -->
+       <stop busStop="liteyny_0" duration="5"/>
+       <stop busStop="vosst_0" duration="5"/>
+       <stop busStop="suvorov_0" duration="5"/>
+       <stop busStop="poltav_0" duration="5"/>
+    </route>
+</routes>

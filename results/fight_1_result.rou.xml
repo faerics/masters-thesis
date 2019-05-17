@@ -1,0 +1,458 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+	<flow id="f_507" type="CAR" begin="41" end="41" route="f0a" number="14" departPos="free" departLane="allowed"/>
+	<!-- vid: 3694 iterations: 100 f_value: 257 zero_f_value: 257 -->
+	<flow id="f_202" type="CAR" begin="42" end="42" route="f8a" number="10" departPos="free" departLane="allowed"/>
+	<!-- vid: 1142 iterations: 100 f_value: 788 zero_f_value: 809 -->
+	<flow id="f_203" type="CAR" begin="46" end="46" route="f3b" number="16" departPos="free" departLane="allowed"/>
+	<flow id="f_508" type="CAR" begin="51" end="51" route="f0*" number="14" departPos="free" departLane="allowed"/>
+	<flow id="f_509" type="CAR" begin="54" end="54" route="f1" number="12" departPos="free" departLane="allowed"/>
+	<flow id="f_848" type="CAR" begin="84" end="84" route="f8a" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_540" type="CAR" begin="96" end="96" route="f0a" number="9" departPos="free" departLane="allowed"/>
+	<!-- vid: 1446 iterations: 8 f_value: -10 zero_f_value: 80 -->
+	<flow id="f_542" type="CAR" begin="99" end="99" route="f1" number="8" departPos="free" departLane="allowed"/>
+	<flow id="f_541" type="CAR" begin="103" end="103" route="f0*" number="13" departPos="free" departLane="allowed"/>
+	<flow id="f_847" type="CAR" begin="107" end="107" route="f0*" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_846" type="CAR" begin="131" end="131" route="f0a" number="8" departPos="free" departLane="allowed"/>
+	<!-- vid: 3694 iterations: 100 f_value: 145 zero_f_value: 325 -->
+	<flow id="f_891" type="CAR" begin="172" end="172" route="f3b" number="7" departPos="free" departLane="allowed"/>
+	<!-- vid: 7356 iterations: 13 f_value: -49 zero_f_value: 61 -->
+	<flow id="f_893" type="CAR" begin="184" end="184" route="f8a" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_892" type="CAR" begin="185" end="185" route="f8b" number="8" departPos="free" departLane="allowed"/>
+	<flow id="f_1099" type="CAR" begin="238" end="238" route="f3a" number="18" departPos="free" departLane="allowed"/>
+	<flow id="f_1098" type="CAR" begin="240" end="240" route="f2d" number="13" departPos="free" departLane="allowed"/>
+	<!-- vid: 7551 iterations: 100 f_value: 208 zero_f_value: 275 -->
+	<flow id="f_1163" type="CAR" begin="301" end="301" route="f4*" number="16" departPos="free" departLane="allowed"/>
+	<flow id="f_1162" type="CAR" begin="302" end="302" route="f4" number="17" departPos="free" departLane="allowed"/>
+	<!-- vid: 6850 iterations: 19 f_value: -23 zero_f_value: 157 -->
+	<flow id="f_1347" type="CAR" begin="312" end="312" route="f0a" number="6" departPos="free" departLane="allowed"/>
+	<!-- vid: 1446 iterations: 25 f_value: -49 zero_f_value: 30 -->
+	<flow id="f_1164" type="CAR" begin="313" end="313" route="f6a" number="9" departPos="free" departLane="allowed"/>
+	<flow id="f_1266" type="CAR" begin="317" end="317" route="f0b" number="12" departPos="free" departLane="allowed"/>
+	<!-- vid: 3788 iterations: 100 f_value: 828 zero_f_value: 828 -->
+	<flow id="f_1348" type="CAR" begin="326" end="326" route="f0*" number="9" departPos="free" departLane="allowed"/>
+	<flow id="f_1655" type="CAR" begin="327" end="327" route="f1" number="17" departPos="free" departLane="allowed"/>
+	<flow id="f_1654" type="CAR" begin="330" end="330" route="f0*" number="18" departPos="free" departLane="allowed"/>
+	<flow id="f_1349" type="CAR" begin="333" end="333" route="f8a" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_1653" type="CAR" begin="342" end="342" route="f0a" number="9" departPos="free" departLane="allowed"/>
+	<!-- vid: 7516 iterations: 100 f_value: 225 zero_f_value: 225 -->
+	<flow id="f_1757" type="CAR" begin="343" end="343" route="f0b" number="26" departPos="free" departLane="allowed"/>
+	<!-- vid: 6929 iterations: 100 f_value: 745 zero_f_value: 745 -->
+	<flow id="f_2049" type="CAR" begin="408" end="408" route="f6b" number="23" departPos="free" departLane="allowed"/>
+	<flow id="f_1842" type="CAR" begin="414" end="414" route="f8b" number="16" departPos="free" departLane="allowed"/>
+	<flow id="f_1843" type="CAR" begin="421" end="421" route="f8a" number="7" departPos="free" departLane="allowed"/>
+	<flow id="f_1841" type="CAR" begin="423" end="423" route="f3b" number="16" departPos="free" departLane="allowed"/>
+	<!-- vid: 7516 iterations: 24 f_value: -130 zero_f_value: 185 -->
+	<flow id="f_2253" type="CAR" begin="425" end="425" route="f6b" number="22" departPos="free" departLane="allowed"/>
+	<flow id="f_2048" type="CAR" begin="441" end="441" route="f5" number="10" departPos="free" departLane="allowed"/>
+	<!-- vid: 6898 iterations: 100 f_value: 778 zero_f_value: 778 -->
+	<flow id="f_2252" type="CAR" begin="453" end="453" route="f5" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 1146 iterations: 100 f_value: 156 zero_f_value: 224 -->
+	<flow id="f_2557" type="CAR" begin="463" end="463" route="f0a" number="6" departPos="free" departLane="allowed"/>
+	<!-- vid: 3587 iterations: 100 f_value: 56 zero_f_value: 118 -->
+	<flow id="f_2559" type="CAR" begin="473" end="473" route="f1" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_2762" type="CAR" begin="486" end="486" route="f5" number="21" departPos="free" departLane="allowed"/>
+	<!-- vid: 7551 iterations: 100 f_value: 280 zero_f_value: 280 -->
+	<flow id="f_2763" type="CAR" begin="487" end="487" route="f6b" number="20" departPos="free" departLane="allowed"/>
+	<flow id="f_2558" type="CAR" begin="488" end="488" route="f0*" number="15" departPos="free" departLane="allowed"/>
+	<flow id="f_2966" type="CAR" begin="506" end="506" route="f5" number="25" departPos="free" departLane="allowed"/>
+	<!-- vid: 6929 iterations: 100 f_value: 722 zero_f_value: 722 -->
+	<flow id="f_2967" type="CAR" begin="537" end="537" route="f6b" number="18" departPos="free" departLane="allowed"/>
+	<flow id="f_3088" type="CAR" begin="607" end="607" route="f0a" number="7" departPos="free" departLane="allowed"/>
+	<!-- vid: 6224 iterations: 35 f_value: 10 zero_f_value: 150 -->
+	<flow id="f_3089" type="CAR" begin="609" end="609" route="f0*" number="10" departPos="free" departLane="allowed"/>
+	<flow id="f_3090" type="CAR" begin="611" end="611" route="f1" number="6" departPos="free" departLane="allowed"/>
+	<flow id="f_3301" type="CAR" begin="663" end="663" route="f3b" number="8" departPos="free" departLane="allowed"/>
+	<flow id="f_3300" type="CAR" begin="674" end="674" route="f8a" number="9" departPos="free" departLane="allowed"/>
+	<!-- vid: 1203 iterations: 100 f_value: 48 zero_f_value: 266 -->
+	<flow id="f_3507" type="CAR" begin="744" end="744" route="f2c" number="16" departPos="free" departLane="allowed"/>
+	<!-- vid: 7383 iterations: 100 f_value: 621 zero_f_value: 770 -->
+	<flow id="f_3508" type="CAR" begin="756" end="756" route="f3b" number="7" departPos="free" departLane="allowed"/>
+	<flow id="f_3630" type="CAR" begin="857" end="857" route="f0b" number="18" departPos="free" departLane="allowed"/>
+	<!-- vid: 1262 iterations: 100 f_value: 355 zero_f_value: 356 -->
+	<flow id="f_3725" type="CAR" begin="869" end="869" route="f0*" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_3724" type="CAR" begin="876" end="876" route="f0a" number="11" departPos="free" departLane="allowed"/>
+	<!-- vid: 3606 iterations: 28 f_value: -30 zero_f_value: 77 -->
+	<flow id="f_3726" type="CAR" begin="887" end="887" route="f1" number="8" departPos="free" departLane="allowed"/>
+	<flow id="f_3828" type="CAR" begin="889" end="889" route="f0b" number="22" departPos="free" departLane="allowed"/>
+	<!-- vid: 3636 iterations: 100 f_value: 1018 zero_f_value: 1018 -->
+	<flow id="f_4244" type="CAR" begin="967" end="967" route="f5" number="15" departPos="free" departLane="allowed"/>
+	<!-- vid: 1262 iterations: 100 f_value: 321 zero_f_value: 328 -->
+	<flow id="f_4245" type="CAR" begin="975" end="975" route="f6b" number="16" departPos="free" departLane="allowed"/>
+	<flow id="f_4035" type="CAR" begin="979" end="979" route="f6b" number="32" departPos="free" departLane="allowed"/>
+	<flow id="f_4034" type="CAR" begin="992" end="992" route="f5" number="22" departPos="free" departLane="allowed"/>
+	<!-- vid: 1405 iterations: 100 f_value: 995 zero_f_value: 1064 -->
+	<flow id="f_4451" type="CAR" begin="999" end="999" route="f6b" number="11" departPos="free" departLane="allowed"/>
+	<flow id="f_4450" type="CAR" begin="1048" end="1048" route="f5" number="33" departPos="free" departLane="allowed"/>
+	<!-- vid: 3636 iterations: 100 f_value: 1133 zero_f_value: 1133 -->
+	<flow id="f_4655" type="CAR" begin="1069" end="1069" route="f3b" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_4654" type="CAR" begin="1075" end="1075" route="f8a" number="8" departPos="free" departLane="allowed"/>
+	<!-- vid: 1285 iterations: 100 f_value: 265 zero_f_value: 411 -->
+	<flow id="f_4959" type="CAR" begin="1077" end="1077" route="f0a" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 6283 iterations: 100 f_value: 79 zero_f_value: 179 -->
+	<flow id="f_4961" type="CAR" begin="1077" end="1077" route="f1" number="6" departPos="free" departLane="allowed"/>
+	<flow id="f_4960" type="CAR" begin="1086" end="1086" route="f0*" number="7" departPos="free" departLane="allowed"/>
+	<flow id="f_4974" type="CAR" begin="1112" end="1112" route="f5" number="7" departPos="free" departLane="allowed"/>
+	<!-- vid: 6994 iterations: 5 f_value: 6 zero_f_value: 11 -->
+	<flow id="f_5288" type="CAR" begin="1232" end="1232" route="f0*" number="12" departPos="free" departLane="allowed"/>
+	<flow id="f_5287" type="CAR" begin="1241" end="1241" route="f0a" number="8" departPos="free" departLane="allowed"/>
+	<!-- vid: 3643 iterations: 100 f_value: 53 zero_f_value: 119 -->
+	<flow id="f_5289" type="CAR" begin="1244" end="1244" route="f1" number="8" departPos="free" departLane="allowed"/>
+	<flow id="f_5394" type="CAR" begin="1299" end="1299" route="f0b" number="23" departPos="free" departLane="allowed"/>
+	<!-- vid: 1227 iterations: 100 f_value: 1273 zero_f_value: 1284 -->
+	<flow id="f_5511" type="CAR" begin="1304" end="1304" route="f2d" number="24" departPos="free" departLane="allowed"/>
+	<!-- vid: 7231 iterations: 57 f_value: 5 zero_f_value: 147 -->
+	<flow id="f_5512" type="CAR" begin="1310" end="1310" route="f3a" number="15" departPos="free" departLane="allowed"/>
+	<flow id="f_5620" type="CAR" begin="1337" end="1337" route="f2a" number="21" departPos="free" departLane="allowed"/>
+	<!-- vid: 7367 iterations: 100 f_value: 146 zero_f_value: 206 -->
+	<flow id="f_5830" type="CAR" begin="1341" end="1341" route="f6b" number="17" departPos="free" departLane="allowed"/>
+	<flow id="f_5829" type="CAR" begin="1370" end="1370" route="f5" number="13" departPos="free" departLane="allowed"/>
+	<!-- vid: 6254 iterations: 100 f_value: 50 zero_f_value: 50 -->
+	<flow id="f_5932" type="CAR" begin="1390" end="1390" route="f0b" number="21" departPos="free" departLane="allowed"/>
+	<!-- vid: 6936 iterations: 100 f_value: 1038 zero_f_value: 1038 -->
+	<flow id="f_6207" type="CAR" begin="1426" end="1426" route="f5" number="7" departPos="free" departLane="allowed"/>
+	<!-- vid: 1227 iterations: 100 f_value: 1789 zero_f_value: 1858 -->
+	<flow id="f_6002" type="CAR" begin="1427" end="1427" route="f0a" number="15" departPos="free" departLane="allowed"/>
+	<!-- vid: 3643 iterations: 20 f_value: -121 zero_f_value: 57 -->
+	<flow id="f_6208" type="CAR" begin="1434" end="1434" route="f6b" number="23" departPos="free" departLane="allowed"/>
+	<flow id="f_6003" type="CAR" begin="1450" end="1450" route="f0*" number="7" departPos="free" departLane="allowed"/>
+	<flow id="f_6004" type="CAR" begin="1450" end="1450" route="f8a" number="10" departPos="free" departLane="allowed"/>
+	<flow id="f_6321" type="CAR" begin="1569" end="1569" route="f0b" number="58" departPos="free" departLane="allowed"/>
+	<!-- vid: 6983 iterations: 100 f_value: 1062 zero_f_value: 1062 -->
+	<flow id="f_6527" type="CAR" begin="1585" end="1585" route="f6b" number="30" departPos="free" departLane="allowed"/>
+	<flow id="f_6526" type="CAR" begin="1622" end="1622" route="f5" number="21" departPos="free" departLane="allowed"/>
+	<!-- vid: 1409 iterations: 100 f_value: 1761 zero_f_value: 1761 -->
+	<flow id="f_6935" type="CAR" begin="1636" end="1636" route="f6b" number="13" departPos="free" departLane="allowed"/>
+	<flow id="f_6934" type="CAR" begin="1641" end="1641" route="f5" number="11" departPos="free" departLane="allowed"/>
+	<!-- vid: 3700 iterations: 100 f_value: 1188 zero_f_value: 1188 -->
+	<flow id="f_6731" type="CAR" begin="1646" end="1646" route="f3a" number="8" departPos="free" departLane="allowed"/>
+	<flow id="f_6730" type="CAR" begin="1647" end="1647" route="f2d" number="7" departPos="free" departLane="allowed"/>
+	<!-- vid: 7172 iterations: 100 f_value: 26 zero_f_value: 311 -->
+	<flow id="f_7138" type="CAR" begin="1675" end="1675" route="f5" number="25" departPos="free" departLane="allowed"/>
+	<!-- vid: 6983 iterations: 100 f_value: 1057 zero_f_value: 1057 -->
+	<flow id="f_7139" type="CAR" begin="1693" end="1693" route="f6b" number="24" departPos="free" departLane="allowed"/>
+	<flow id="f_7158" type="CAR" begin="1699" end="1699" route="f8a" number="18" departPos="free" departLane="allowed"/>
+	<!-- vid: 19628 iterations: 8 f_value: -48 zero_f_value: 150 -->
+	<flow id="f_7159" type="CAR" begin="1699" end="1699" route="f3b" number="7" departPos="free" departLane="allowed"/>
+	<flow id="f_7363" type="CAR" begin="1708" end="1708" route="f6b" number="25" departPos="free" departLane="allowed"/>
+	<flow id="f_7362" type="CAR" begin="1717" end="1717" route="f5" number="13" departPos="free" departLane="allowed"/>
+	<!-- vid: 7172 iterations: 100 f_value: 280 zero_f_value: 280 -->
+	<flow id="f_7769" type="CAR" begin="1746" end="1746" route="f0a" number="15" departPos="free" departLane="allowed"/>
+	<!-- vid: 1239 iterations: 100 f_value: 181 zero_f_value: 181 -->
+	<flow id="f_7770" type="CAR" begin="1747" end="1747" route="f0*" number="11" departPos="free" departLane="allowed"/>
+	<flow id="f_7465" type="CAR" begin="1748" end="1748" route="f0b" number="37" departPos="free" departLane="allowed"/>
+	<!-- vid: 1393 iterations: 100 f_value: 1580 zero_f_value: 1580 -->
+	<flow id="f_7771" type="CAR" begin="1750" end="1750" route="f1" number="12" departPos="free" departLane="allowed"/>
+	<flow id="f_7873" type="CAR" begin="1768" end="1768" route="f2a" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 7130 iterations: 100 f_value: 211 zero_f_value: 211 -->
+	<flow id="f_8076" type="CAR" begin="1779" end="1779" route="f5" number="28" departPos="free" departLane="allowed"/>
+	<!-- vid: 1393 iterations: 100 f_value: 1611 zero_f_value: 1611 -->
+	<flow id="f_8077" type="CAR" begin="1810" end="1810" route="f6b" number="34" departPos="free" departLane="allowed"/>
+	<flow id="f_8096" type="CAR" begin="2007" end="2007" route="f4" number="7" departPos="free" departLane="allowed"/>
+	<!-- vid: 6855 iterations: 4 f_value: -217 zero_f_value: 53 -->
+	<flow id="f_8097" type="CAR" begin="2015" end="2015" route="f4*" number="9" departPos="free" departLane="allowed"/>
+	<flow id="f_8302" type="CAR" begin="2099" end="2099" route="f3b" number="10" departPos="free" departLane="allowed"/>
+	<flow id="f_8301" type="CAR" begin="2110" end="2110" route="f8a" number="6" departPos="free" departLane="allowed"/>
+	<!-- vid: 1457 iterations: 100 f_value: 104 zero_f_value: 229 -->
+	<flow id="f_8608" type="CAR" begin="2126" end="2126" route="f1" number="15" departPos="free" departLane="allowed"/>
+	<flow id="f_8607" type="CAR" begin="2137" end="2137" route="f0*" number="19" departPos="free" departLane="allowed"/>
+	<flow id="f_8606" type="CAR" begin="2138" end="2138" route="f0a" number="25" departPos="free" departLane="allowed"/>
+	<!-- vid: 3699 iterations: 100 f_value: 340 zero_f_value: 340 -->
+	<flow id="f_9121" type="CAR" begin="2179" end="2179" route="f8a" number="7" departPos="free" departLane="allowed"/>
+	<flow id="f_8815" type="CAR" begin="2191" end="2191" route="f3b" number="11" departPos="free" departLane="allowed"/>
+	<flow id="f_8814" type="CAR" begin="2198" end="2198" route="f2c" number="20" departPos="free" departLane="allowed"/>
+	<!-- vid: 7550 iterations: 100 f_value: 175 zero_f_value: 274 -->
+	<flow id="f_9119" type="CAR" begin="2209" end="2209" route="f0a" number="11" departPos="free" departLane="allowed"/>
+	<!-- vid: 3699 iterations: 100 f_value: 114 zero_f_value: 212 -->
+	<flow id="f_9426" type="CAR" begin="2213" end="2213" route="f0*" number="10" departPos="free" departLane="allowed"/>
+	<flow id="f_9120" type="CAR" begin="2222" end="2222" route="f0*" number="8" departPos="free" departLane="allowed"/>
+	<flow id="f_9427" type="CAR" begin="2227" end="2227" route="f1" number="16" departPos="free" departLane="allowed"/>
+	<flow id="f_9425" type="CAR" begin="2230" end="2230" route="f0a" number="11" departPos="free" departLane="allowed"/>
+	<!-- vid: 7549 iterations: 100 f_value: 150 zero_f_value: 346 -->
+	<flow id="f_9633" type="CAR" begin="2271" end="2271" route="f6b" number="29" departPos="free" departLane="allowed"/>
+	<flow id="f_9632" type="CAR" begin="2285" end="2285" route="f5" number="12" departPos="free" departLane="allowed"/>
+	<!-- vid: 7597 iterations: 100 f_value: 580 zero_f_value: 580 -->
+	<flow id="f_9943" type="CAR" begin="2354" end="2354" route="f6b" number="18" departPos="free" departLane="allowed"/>
+	<flow id="f_9739" type="CAR" begin="2383" end="2383" route="f0b" number="23" departPos="free" departLane="allowed"/>
+	<!-- vid: 3675 iterations: 100 f_value: 1050 zero_f_value: 1051 -->
+	<flow id="f_9942" type="CAR" begin="2393" end="2393" route="f5" number="14" departPos="free" departLane="allowed"/>
+	<!-- vid: 6257 iterations: 100 f_value: 302 zero_f_value: 302 -->
+	<flow id="f_10248" type="CAR" begin="2397" end="2397" route="f0*" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_10452" type="CAR" begin="2400" end="2400" route="f0b" number="20" departPos="free" departLane="allowed"/>
+	<!-- vid: 7651_1 iterations: 100 f_value: 356 zero_f_value: 367 -->
+	<flow id="f_10453" type="CAR" begin="2404" end="2404" route="f2b" number="18" departPos="free" departLane="allowed"/>
+	<flow id="f_10249" type="CAR" begin="2405" end="2405" route="f1" number="6" departPos="free" departLane="allowed"/>
+	<flow id="f_10247" type="CAR" begin="2412" end="2412" route="f0a" number="11" departPos="free" departLane="allowed"/>
+	<!-- vid: 6977 iterations: 100 f_value: 285 zero_f_value: 445 -->
+	<flow id="f_10967" type="CAR" begin="2418" end="2418" route="f6b" number="18" departPos="free" departLane="allowed"/>
+	<flow id="f_10757" type="CAR" begin="2425" end="2425" route="f0a" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 7522 iterations: 100 f_value: 210 zero_f_value: 272 -->
+	<flow id="f_10758" type="CAR" begin="2430" end="2430" route="f0*" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_10759" type="CAR" begin="2433" end="2433" route="f1" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_11272" type="CAR" begin="2441" end="2441" route="f0*" number="13" departPos="free" departLane="allowed"/>
+	<flow id="f_10966" type="CAR" begin="2443" end="2443" route="f5" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 3675 iterations: 100 f_value: 1122 zero_f_value: 1191 -->
+	<flow id="f_11271" type="CAR" begin="2454" end="2454" route="f0a" number="6" departPos="free" departLane="allowed"/>
+	<!-- vid: 3873 iterations: 100 f_value: 362 zero_f_value: 471 -->
+	<flow id="f_11273" type="CAR" begin="2461" end="2461" route="f1" number="9" departPos="free" departLane="allowed"/>
+	<flow id="f_11579" type="CAR" begin="2488" end="2488" route="f1" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_11578" type="CAR" begin="2489" end="2489" route="f0*" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_11577" type="CAR" begin="2490" end="2490" route="f0a" number="9" departPos="free" departLane="allowed"/>
+	<!-- vid: 1496 iterations: 100 f_value: 69 zero_f_value: 292 -->
+	<flow id="f_11681" type="CAR" begin="2513" end="2513" route="f0b" number="11" departPos="free" departLane="allowed"/>
+	<!-- vid: 1154 iterations: 100 f_value: 557 zero_f_value: 673 -->
+	<flow id="f_11787" type="CAR" begin="2649" end="2649" route="f0b" number="26" departPos="free" departLane="allowed"/>
+	<!-- vid: 1229 iterations: 100 f_value: 784 zero_f_value: 806 -->
+	<flow id="f_11900" type="CAR" begin="2834" end="2834" route="f0b" number="21" departPos="free" departLane="allowed"/>
+	<!-- vid: 3651 iterations: 100 f_value: 782 zero_f_value: 782 -->
+	<flow id="f_12252" type="CAR" begin="3169" end="3169" route="f6b" number="29" departPos="free" departLane="allowed"/>
+	<flow id="f_12251" type="CAR" begin="3189" end="3189" route="f5" number="29" departPos="free" departLane="allowed"/>
+	<!-- vid: 6243 iterations: 100 f_value: 722 zero_f_value: 722 -->
+	<flow id="f_12048" type="CAR" begin="3192" end="3192" route="f0b" number="18" departPos="free" departLane="allowed"/>
+	<!-- vid: 1152 iterations: 100 f_value: 504 zero_f_value: 507 -->
+	<flow id="f_12456" type="CAR" begin="3223" end="3223" route="f3a" number="9" departPos="free" departLane="allowed"/>
+	<flow id="f_12455" type="CAR" begin="3225" end="3225" route="f2d" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 7388 iterations: 100 f_value: 335 zero_f_value: 504 -->
+	<flow id="f_12525" type="CAR" begin="3249" end="3249" route="f1" number="8" departPos="free" departLane="allowed"/>
+	<flow id="f_12524" type="CAR" begin="3250" end="3250" route="f0*" number="9" departPos="free" departLane="allowed"/>
+	<flow id="f_12523" type="CAR" begin="3251" end="3251" route="f0a" number="6" departPos="free" departLane="allowed"/>
+	<!-- vid: 6270_1 iterations: 20 f_value: 2 zero_f_value: 100 -->
+	<flow id="f_12732" type="CAR" begin="3265" end="3265" route="f6b" number="26" departPos="free" departLane="allowed"/>
+	<flow id="f_12731" type="CAR" begin="3281" end="3281" route="f5" number="11" departPos="free" departLane="allowed"/>
+	<!-- vid: 7388 iterations: 100 f_value: 532 zero_f_value: 592 -->
+	<flow id="f_12940" type="CAR" begin="3336" end="3336" route="f2b" number="34" departPos="free" departLane="allowed"/>
+	<flow id="f_12939" type="CAR" begin="3341" end="3341" route="f0b" number="17" departPos="free" departLane="allowed"/>
+	<!-- vid: 7130_1 iterations: 100 f_value: 104 zero_f_value: 104 -->
+	<flow id="f_13147" type="CAR" begin="3354" end="3354" route="f6b" number="7" departPos="free" departLane="allowed"/>
+	<flow id="f_13249" type="CAR" begin="3366" end="3366" route="f2a" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 7532 iterations: 100 f_value: 33 zero_f_value: 33 -->
+	<flow id="f_13146" type="CAR" begin="3371" end="3371" route="f5" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 1152 iterations: 100 f_value: 611 zero_f_value: 615 -->
+	<flow id="f_13555" type="CAR" begin="3428" end="3428" route="f1" number="6" departPos="free" departLane="allowed"/>
+	<flow id="f_13554" type="CAR" begin="3444" end="3444" route="f0*" number="6" departPos="free" departLane="allowed"/>
+	<flow id="f_13553" type="CAR" begin="3447" end="3447" route="f0a" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 1155_1 iterations: 100 f_value: 256 zero_f_value: 261 -->
+	<flow id="f_13862" type="CAR" begin="3466" end="3466" route="f0*" number="21" departPos="free" departLane="allowed"/>
+	<flow id="f_13863" type="CAR" begin="3484" end="3484" route="f8a" number="11" departPos="free" departLane="allowed"/>
+	<flow id="f_14269" type="CAR" begin="3506" end="3506" route="f0a" number="16" departPos="free" departLane="allowed"/>
+	<!-- vid: 1155_1 iterations: 100 f_value: 370 zero_f_value: 400 -->
+	<flow id="f_13861" type="CAR" begin="3526" end="3526" route="f0a" number="15" departPos="free" departLane="allowed"/>
+	<!-- vid: 3663 iterations: 100 f_value: 304 zero_f_value: 304 -->
+	<flow id="f_14271" type="CAR" begin="3535" end="3535" route="f8a" number="7" departPos="free" departLane="allowed"/>
+	<flow id="f_14478" type="CAR" begin="3540" end="3540" route="f6b" number="31" departPos="free" departLane="allowed"/>
+	<flow id="f_13965" type="CAR" begin="3549" end="3549" route="f0b" number="29" departPos="free" departLane="allowed"/>
+	<!-- vid: 3608 iterations: 100 f_value: 444 zero_f_value: 455 -->
+	<flow id="f_14477" type="CAR" begin="3552" end="3552" route="f5" number="29" departPos="free" departLane="allowed"/>
+	<!-- vid: 6267 iterations: 100 f_value: 188 zero_f_value: 188 -->
+	<flow id="f_14270" type="CAR" begin="3559" end="3559" route="f0*" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_14580" type="CAR" begin="3587" end="3587" route="f0b" number="31" departPos="free" departLane="allowed"/>
+	<!-- vid: 1348 iterations: 100 f_value: 483 zero_f_value: 483 -->
+	<flow id="f_14884" type="CAR" begin="3627" end="3627" route="f0a" number="8" departPos="free" departLane="allowed"/>
+	<!-- vid: 7551_1 iterations: 100 f_value: 101 zero_f_value: 211 -->
+	<flow id="f_14886" type="CAR" begin="3634" end="3634" route="f1" number="17" departPos="free" departLane="allowed"/>
+	<flow id="f_14885" type="CAR" begin="3644" end="3644" route="f0*" number="6" departPos="free" departLane="allowed"/>
+	<flow id="f_15089" type="CAR" begin="3662" end="3662" route="f2c" number="12" departPos="free" departLane="allowed"/>
+	<!-- vid: 7567 iterations: 100 f_value: 560 zero_f_value: 602 -->
+	<flow id="f_15090" type="CAR" begin="3670" end="3670" route="f3b" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_15115" type="CAR" begin="3681" end="3681" route="f4" number="13" departPos="free" departLane="allowed"/>
+	<!-- vid: 7188 iterations: 7 f_value: -42 zero_f_value: 318 -->
+	<flow id="f_15116" type="CAR" begin="3696" end="3696" route="f4*" number="7" departPos="free" departLane="allowed"/>
+	<flow id="f_15117" type="CAR" begin="3697" end="3697" route="f6a" number="9" departPos="free" departLane="allowed"/>
+	<flow id="f_15322" type="CAR" begin="3700" end="3700" route="f5" number="23" departPos="free" departLane="allowed"/>
+	<!-- vid: 1348 iterations: 100 f_value: 448 zero_f_value: 448 -->
+	<flow id="f_15323" type="CAR" begin="3711" end="3711" route="f6b" number="15" departPos="free" departLane="allowed"/>
+	<flow id="f_15527" type="CAR" begin="3758" end="3758" route="f6b" number="17" departPos="free" departLane="allowed"/>
+	<flow id="f_15526" type="CAR" begin="3799" end="3799" route="f5" number="11" departPos="free" departLane="allowed"/>
+	<!-- vid: 7567 iterations: 100 f_value: 770 zero_f_value: 770 -->
+	<flow id="f_15564" type="CAR" begin="3804" end="3804" route="f0a" number="14" departPos="free" departLane="allowed"/>
+	<!-- vid: 6996_1 iterations: 11 f_value: -74 zero_f_value: 19 -->
+	<flow id="f_15566" type="CAR" begin="3821" end="3821" route="f8a" number="9" departPos="free" departLane="allowed"/>
+	<flow id="f_15565" type="CAR" begin="3825" end="3825" route="f0*" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_15872" type="CAR" begin="3837" end="3837" route="f1" number="11" departPos="free" departLane="allowed"/>
+	<flow id="f_15870" type="CAR" begin="3840" end="3840" route="f0a" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 1146_1 iterations: 100 f_value: 48 zero_f_value: 105 -->
+	<flow id="f_15871" type="CAR" begin="3848" end="3848" route="f0*" number="6" departPos="free" departLane="allowed"/>
+	<flow id="f_15880" type="CAR" begin="3909" end="3909" route="f2a" number="19" departPos="free" departLane="allowed"/>
+	<!-- vid: 7511 iterations: 6 f_value: -45 zero_f_value: 15 -->
+	<flow id="f_15982" type="CAR" begin="3920" end="3920" route="f0b" number="7" departPos="free" departLane="allowed"/>
+	<!-- vid: 3660 iterations: 100 f_value: 254 zero_f_value: 262 -->
+	<flow id="f_16185" type="CAR" begin="3922" end="3922" route="f5" number="8" departPos="free" departLane="allowed"/>
+	<!-- vid: 6265 iterations: 100 f_value: 24 zero_f_value: 37 -->
+	<flow id="f_16186" type="CAR" begin="3929" end="3929" route="f6b" number="16" departPos="free" departLane="allowed"/>
+	<flow id="f_16593" type="CAR" begin="3961" end="3961" route="f5" number="6" departPos="free" departLane="allowed"/>
+	<!-- vid: 3660 iterations: 100 f_value: 284 zero_f_value: 284 -->
+	<flow id="f_16594" type="CAR" begin="3969" end="3969" route="f6b" number="20" departPos="free" departLane="allowed"/>
+	<flow id="f_16390" type="CAR" begin="3993" end="3993" route="f3a" number="6" departPos="free" departLane="allowed"/>
+	<flow id="f_16389" type="CAR" begin="4000" end="4000" route="f2d" number="10" departPos="free" departLane="allowed"/>
+	<!-- vid: 7495 iterations: 100 f_value: 65 zero_f_value: 224 -->
+	<flow id="f_16626" type="CAR" begin="4034" end="4034" route="f0*" number="9" departPos="free" departLane="allowed"/>
+	<flow id="f_16627" type="CAR" begin="4037" end="4037" route="f1" number="11" departPos="free" departLane="allowed"/>
+	<flow id="f_16833" type="CAR" begin="4042" end="4042" route="f5" number="19" departPos="free" departLane="allowed"/>
+	<!-- vid: 7495 iterations: 100 f_value: 170 zero_f_value: 170 -->
+	<flow id="f_16834" type="CAR" begin="4068" end="4068" route="f6b" number="10" departPos="free" departLane="allowed"/>
+	<flow id="f_16854" type="CAR" begin="4236" end="4236" route="f4*" number="19" departPos="free" departLane="allowed"/>
+	<!-- vid: 7188 iterations: 8 f_value: -47 zero_f_value: 29 -->
+	<flow id="f_17057" type="CAR" begin="4243" end="4243" route="f2c" number="11" departPos="free" departLane="allowed"/>
+	<!-- vid: 6900 iterations: 100 f_value: 272 zero_f_value: 289 -->
+	<flow id="f_17102" type="CAR" begin="4246" end="4246" route="f0*" number="11" departPos="free" departLane="allowed"/>
+	<flow id="f_17058" type="CAR" begin="4251" end="4251" route="f3b" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_17103" type="CAR" begin="4262" end="4262" route="f8a" number="9" departPos="free" departLane="allowed"/>
+	<flow id="f_17101" type="CAR" begin="4291" end="4291" route="f0a" number="7" departPos="free" departLane="allowed"/>
+	<!-- vid: 3704 iterations: 11 f_value: -89 zero_f_value: 91 -->
+	<flow id="f_17316" type="CAR" begin="4386" end="4386" route="f6b" number="17" departPos="free" departLane="allowed"/>
+	<flow id="f_17315" type="CAR" begin="4399" end="4399" route="f5" number="12" departPos="free" departLane="allowed"/>
+	<!-- vid: 6900 iterations: 100 f_value: 453 zero_f_value: 471 -->
+	<flow id="f_17631" type="CAR" begin="4509" end="4509" route="f0a" number="9" departPos="free" departLane="allowed"/>
+	<!-- vid: 1262_1 iterations: 100 f_value: 197 zero_f_value: 207 -->
+	<flow id="f_17632" type="CAR" begin="4544" end="4544" route="f0*" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_17633" type="CAR" begin="4548" end="4548" route="f8a" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_18040" type="CAR" begin="4566" end="4566" route="f5" number="28" departPos="free" departLane="allowed"/>
+	<!-- vid: 6278 iterations: 100 f_value: 106 zero_f_value: 106 -->
+	<flow id="f_17837" type="CAR" begin="4575" end="4575" route="f6b" number="8" departPos="free" departLane="allowed"/>
+	<flow id="f_17836" type="CAR" begin="4576" end="4576" route="f5" number="17" departPos="free" departLane="allowed"/>
+	<!-- vid: 6934 iterations: 100 f_value: 558 zero_f_value: 564 -->
+	<flow id="f_18041" type="CAR" begin="4590" end="4590" route="f6b" number="29" departPos="free" departLane="allowed"/>
+	<flow id="f_18143" type="CAR" begin="4632" end="4632" route="f0b" number="10" departPos="free" departLane="allowed"/>
+	<!-- vid: 3867 iterations: 100 f_value: 132 zero_f_value: 140 -->
+	<flow id="f_18447" type="CAR" begin="4637" end="4637" route="f0a" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 3680 iterations: 100 f_value: 158 zero_f_value: 158 -->
+	<flow id="f_18449" type="CAR" begin="4641" end="4641" route="f1" number="12" departPos="free" departLane="allowed"/>
+	<flow id="f_18448" type="CAR" begin="4648" end="4648" route="f0*" number="20" departPos="free" departLane="allowed"/>
+	<flow id="f_18761" type="CAR" begin="4714" end="4714" route="f1" number="15" departPos="free" departLane="allowed"/>
+	<flow id="f_18759" type="CAR" begin="4732" end="4732" route="f0a" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 7231_1 iterations: 100 f_value: 78 zero_f_value: 78 -->
+	<flow id="f_18760" type="CAR" begin="4733" end="4733" route="f0*" number="7" departPos="free" departLane="allowed"/>
+	<flow id="f_18819" type="CAR" begin="4760" end="4760" route="f4*" number="8" departPos="free" departLane="allowed"/>
+	<flow id="f_19023" type="CAR" begin="4761" end="4761" route="f5" number="11" departPos="free" departLane="allowed"/>
+	<!-- vid: 3867 iterations: 100 f_value: 107 zero_f_value: 184 -->
+	<flow id="f_18818" type="CAR" begin="4770" end="4770" route="f4" number="9" departPos="free" departLane="allowed"/>
+	<!-- vid: 7181 iterations: 16 f_value: -36 zero_f_value: 144 -->
+	<flow id="f_18820" type="CAR" begin="4775" end="4775" route="f6a" number="12" departPos="free" departLane="allowed"/>
+	<flow id="f_19024" type="CAR" begin="4812" end="4812" route="f6b" number="11" departPos="free" departLane="allowed"/>
+	<flow id="f_19262" type="CAR" begin="5013" end="5013" route="f6b" number="13" departPos="free" departLane="allowed"/>
+	<flow id="f_19261" type="CAR" begin="5051" end="5051" route="f5" number="11" departPos="free" departLane="allowed"/>
+	<!-- vid: 7368 iterations: 100 f_value: 341 zero_f_value: 341 -->
+	<flow id="f_19465" type="CAR" begin="5067" end="5067" route="f8a" number="18" departPos="free" departLane="allowed"/>
+	<!-- vid: 1443 iterations: 100 f_value: 254 zero_f_value: 267 -->
+	<flow id="f_19466" type="CAR" begin="5069" end="5069" route="f3b" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_19677" type="CAR" begin="5112" end="5112" route="f2b" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_19676" type="CAR" begin="5113" end="5113" route="f0b" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 7227_1 iterations: 100 f_value: 314 zero_f_value: 324 -->
+	<flow id="f_19985" type="CAR" begin="5117" end="5117" route="f8b" number="9" departPos="free" departLane="allowed"/>
+	<flow id="f_19984" type="CAR" begin="5120" end="5120" route="f3b" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 7172_1 iterations: 100 f_value: 70 zero_f_value: 232 -->
+	<flow id="f_20291" type="CAR" begin="5122" end="5122" route="f5" number="16" departPos="free" departLane="allowed"/>
+	<!-- vid: 6954 iterations: 100 f_value: 258 zero_f_value: 258 -->
+	<flow id="f_19986" type="CAR" begin="5128" end="5128" route="f8a" number="8" departPos="free" departLane="allowed"/>
+	<flow id="f_20088" type="CAR" begin="5142" end="5142" route="f4*" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 7181 iterations: 100 f_value: 44 zero_f_value: 45 -->
+	<flow id="f_20292" type="CAR" begin="5146" end="5146" route="f6b" number="31" departPos="free" departLane="allowed"/>
+	<flow id="f_20698" type="CAR" begin="5193" end="5193" route="f0a" number="8" departPos="free" departLane="allowed"/>
+	<!-- vid: 6936_1 iterations: 100 f_value: 140 zero_f_value: 156 -->
+	<flow id="f_20699" type="CAR" begin="5194" end="5194" route="f0*" number="8" departPos="free" departLane="allowed"/>
+	<flow id="f_20394" type="CAR" begin="5199" end="5199" route="f2a" number="6" departPos="free" departLane="allowed"/>
+	<!-- vid: 7223 iterations: 100 f_value: 69 zero_f_value: 69 -->
+	<flow id="f_20700" type="CAR" begin="5221" end="5221" route="f8a" number="6" departPos="free" departLane="allowed"/>
+	<flow id="f_20713" type="CAR" begin="5230" end="5230" route="f4*" number="19" departPos="free" departLane="allowed"/>
+	<!-- vid: 6898_1 iterations: 11 f_value: -49 zero_f_value: 27 -->
+	<flow id="f_20917" type="CAR" begin="5304" end="5304" route="f3b" number="11" departPos="free" departLane="allowed"/>
+	<flow id="f_20916" type="CAR" begin="5305" end="5305" route="f2c" number="8" departPos="free" departLane="allowed"/>
+	<!-- vid: 6852 iterations: 100 f_value: 220 zero_f_value: 378 -->
+	<flow id="f_20988" type="CAR" begin="5412" end="5412" route="f2d" number="17" departPos="free" departLane="allowed"/>
+	<!-- vid: 7154 iterations: 33 f_value: -10 zero_f_value: 169 -->
+	<flow id="f_20989" type="CAR" begin="5415" end="5415" route="f3a" number="9" departPos="free" departLane="allowed"/>
+	<flow id="f_21297" type="CAR" begin="5441" end="5441" route="f0a" number="17" departPos="free" departLane="allowed"/>
+	<!-- vid: 6983_1 iterations: 100 f_value: 73 zero_f_value: 73 -->
+	<flow id="f_21298" type="CAR" begin="5443" end="5443" route="f0*" number="29" departPos="free" departLane="allowed"/>
+	<flow id="f_21299" type="CAR" begin="5455" end="5455" route="f1" number="11" departPos="free" departLane="allowed"/>
+	<flow id="f_21605" type="CAR" begin="5480" end="5480" route="f0a" number="29" departPos="free" departLane="allowed"/>
+	<!-- vid: 1405_1 iterations: 100 f_value: 48 zero_f_value: 48 -->
+	<flow id="f_21606" type="CAR" begin="5488" end="5488" route="f0*" number="23" departPos="free" departLane="allowed"/>
+	<flow id="f_21607" type="CAR" begin="5488" end="5488" route="f1" number="12" departPos="free" departLane="allowed"/>
+	<flow id="f_21824" type="CAR" begin="5573" end="5573" route="f6b" number="9" departPos="free" departLane="allowed"/>
+	<flow id="f_21823" type="CAR" begin="5581" end="5581" route="f5" number="6" departPos="free" departLane="allowed"/>
+	<!-- vid: 6987 iterations: 100 f_value: 50 zero_f_value: 57 -->
+	<flow id="f_22056" type="CAR" begin="5608" end="5608" route="f6b" number="11" departPos="free" departLane="allowed"/>
+	<flow id="f_21851" type="CAR" begin="5612" end="5612" route="f0*" number="10" departPos="free" departLane="allowed"/>
+	<flow id="f_21852" type="CAR" begin="5612" end="5612" route="f1" number="11" departPos="free" departLane="allowed"/>
+	<flow id="f_21850" type="CAR" begin="5624" end="5624" route="f0a" number="8" departPos="free" departLane="allowed"/>
+	<!-- vid: 7597_1 iterations: 6 f_value: -19 zero_f_value: 30 -->
+	<flow id="f_22055" type="CAR" begin="5651" end="5651" route="f5" number="8" departPos="free" departLane="allowed"/>
+	<!-- vid: 3657 iterations: 100 f_value: 509 zero_f_value: 512 -->
+	<flow id="f_22089" type="CAR" begin="5699" end="5699" route="f3b" number="18" departPos="free" departLane="allowed"/>
+	<flow id="f_22088" type="CAR" begin="5705" end="5705" route="f8a" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 1566 iterations: 12 f_value: -229 zero_f_value: 83 -->
+	<flow id="f_22097" type="CAR" begin="5753" end="5753" route="f3b" number="7" departPos="free" departLane="allowed"/>
+	<flow id="f_22301" type="CAR" begin="5858" end="5858" route="f3a" number="7" departPos="free" departLane="allowed"/>
+	<flow id="f_22300" type="CAR" begin="5859" end="5859" route="f2d" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 7247 iterations: 100 f_value: 26 zero_f_value: 191 -->
+	<flow id="f_22410" type="CAR" begin="5920" end="5920" route="f0b" number="35" departPos="free" departLane="allowed"/>
+	<!-- vid: 1334 iterations: 100 f_value: 614 zero_f_value: 614 -->
+	<flow id="f_22715" type="CAR" begin="5969" end="5969" route="f0*" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_22716" type="CAR" begin="5977" end="5977" route="f1" number="6" departPos="free" departLane="allowed"/>
+	<flow id="f_22714" type="CAR" begin="5979" end="5979" route="f0a" number="10" departPos="free" departLane="allowed"/>
+	<!-- vid: 6257_1 iterations: 100 f_value: 14 zero_f_value: 116 -->
+	<flow id="f_23036" type="CAR" begin="6082" end="6082" route="f0a" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 1227_1 iterations: 100 f_value: 179 zero_f_value: 538 -->
+	<flow id="f_23037" type="CAR" begin="6093" end="6093" route="f0*" number="19" departPos="free" departLane="allowed"/>
+	<flow id="f_23038" type="CAR" begin="6127" end="6127" route="f8a" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_23344" type="CAR" begin="6127" end="6127" route="f6b" number="6" departPos="free" departLane="allowed"/>
+	<flow id="f_23343" type="CAR" begin="6149" end="6149" route="f5" number="8" departPos="free" departLane="allowed"/>
+	<!-- vid: 6964 iterations: 100 f_value: 13 zero_f_value: 86 -->
+	<flow id="f_23140" type="CAR" begin="6154" end="6154" route="f0b" number="17" departPos="free" departLane="allowed"/>
+	<!-- vid: 3610 iterations: 100 f_value: 652 zero_f_value: 664 -->
+	<flow id="f_23547" type="CAR" begin="6173" end="6173" route="f2c" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 6913 iterations: 100 f_value: 125 zero_f_value: 325 -->
+	<flow id="f_23548" type="CAR" begin="6176" end="6176" route="f3b" number="6" departPos="free" departLane="allowed"/>
+	<flow id="f_23956" type="CAR" begin="6215" end="6215" route="f6b" number="22" departPos="free" departLane="allowed"/>
+	<flow id="f_23955" type="CAR" begin="6216" end="6216" route="f5" number="21" departPos="free" departLane="allowed"/>
+	<!-- vid: 3610 iterations: 100 f_value: 614 zero_f_value: 624 -->
+	<flow id="f_23751" type="CAR" begin="6219" end="6219" route="f2d" number="9" departPos="free" departLane="allowed"/>
+	<!-- vid: 7135 iterations: 100 f_value: 257 zero_f_value: 425 -->
+	<flow id="f_23752" type="CAR" begin="6223" end="6223" route="f3a" number="10" departPos="free" departLane="allowed"/>
+	<flow id="f_24261" type="CAR" begin="6242" end="6242" route="f0*" number="9" departPos="free" departLane="allowed"/>
+	<flow id="f_24262" type="CAR" begin="6250" end="6250" route="f1" number="11" departPos="free" departLane="allowed"/>
+	<flow id="f_24465" type="CAR" begin="6258" end="6258" route="f5" number="16" departPos="free" departLane="allowed"/>
+	<!-- vid: 7135 iterations: 100 f_value: 329 zero_f_value: 338 -->
+	<flow id="f_24260" type="CAR" begin="6259" end="6259" route="f0a" number="7" departPos="free" departLane="allowed"/>
+	<!-- vid: 3636_1 iterations: 100 f_value: 84 zero_f_value: 152 -->
+	<flow id="f_24466" type="CAR" begin="6294" end="6294" route="f6b" number="7" departPos="free" departLane="allowed"/>
+	<flow id="f_25179" type="CAR" begin="6308" end="6308" route="f0*" number="12" departPos="free" departLane="allowed"/>
+	<flow id="f_25178" type="CAR" begin="6321" end="6321" route="f0a" number="10" departPos="free" departLane="allowed"/>
+	<!-- vid: 3636_1 iterations: 100 f_value: 104 zero_f_value: 171 -->
+	<flow id="f_25180" type="CAR" begin="6328" end="6328" route="f8a" number="5" departPos="free" departLane="allowed"/>
+	<flow id="f_24873" type="CAR" begin="6342" end="6342" route="f4*" number="12" departPos="free" departLane="allowed"/>
+	<flow id="f_24568" type="CAR" begin="6349" end="6349" route="f0b" number="22" departPos="free" departLane="allowed"/>
+	<!-- vid: 1404 iterations: 100 f_value: 728 zero_f_value: 728 -->
+	<flow id="f_24874" type="CAR" begin="6349" end="6349" route="f6a" number="7" departPos="free" departLane="allowed"/>
+	<flow id="f_24872" type="CAR" begin="6359" end="6359" route="f4" number="6" departPos="free" departLane="allowed"/>
+	<!-- vid: 7185_1 iterations: 100 f_value: 26 zero_f_value: 26 -->
+	<flow id="f_25282" type="CAR" begin="6371" end="6371" route="f0b" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 6965 iterations: 100 f_value: 536 zero_f_value: 540 -->
+	<flow id="f_25486" type="CAR" begin="6385" end="6385" route="f6b" number="12" departPos="free" departLane="allowed"/>
+	<flow id="f_25508" type="CAR" begin="6413" end="6413" route="f0a" number="8" departPos="free" departLane="allowed"/>
+	<!-- vid: 1258 iterations: 6 f_value: -50 zero_f_value: 215 -->
+	<flow id="f_25510" type="CAR" begin="6413" end="6413" route="f1" number="8" departPos="free" departLane="allowed"/>
+	<flow id="f_25509" type="CAR" begin="6416" end="6416" route="f0*" number="11" departPos="free" departLane="allowed"/>
+	<flow id="f_25485" type="CAR" begin="6417" end="6417" route="f5" number="12" departPos="free" departLane="allowed"/>
+	<!-- vid: 1404 iterations: 100 f_value: 650 zero_f_value: 651 -->
+	<flow id="f_25721" type="CAR" begin="6523" end="6523" route="f6b" number="32" departPos="free" departLane="allowed"/>
+	<flow id="f_25720" type="CAR" begin="6535" end="6535" route="f5" number="12" departPos="free" departLane="allowed"/>
+	<!-- vid: 6965 iterations: 100 f_value: 520 zero_f_value: 520 -->
+	<flow id="f_25782" type="CAR" begin="6617" end="6617" route="f0*" number="12" departPos="free" departLane="allowed"/>
+	<flow id="f_25781" type="CAR" begin="6624" end="6624" route="f0a" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 6944_1 iterations: 18 f_value: -11 zero_f_value: 46 -->
+	<flow id="f_25783" type="CAR" begin="6624" end="6624" route="f1" number="12" departPos="free" departLane="allowed"/>
+	<flow id="f_25815" type="CAR" begin="6671" end="6671" route="f8a" number="9" departPos="free" departLane="allowed"/>
+	<flow id="f_25813" type="CAR" begin="6683" end="6683" route="f0a" number="9" departPos="free" departLane="allowed"/>
+	<!-- vid: 1258 iterations: 8 f_value: -94 zero_f_value: 26 -->
+	<flow id="f_25814" type="CAR" begin="6705" end="6705" route="f0*" number="7" departPos="free" departLane="allowed"/>
+	<flow id="f_26027" type="CAR" begin="6836" end="6836" route="f3a" number="13" departPos="free" departLane="allowed"/>
+	<flow id="f_26026" type="CAR" begin="6837" end="6837" route="f2d" number="5" departPos="free" departLane="allowed"/>
+	<!-- vid: 7450 iterations: 100 f_value: 97 zero_f_value: 256 -->
+	<flow id="f_26336" type="CAR" begin="6899" end="6899" route="f4*" number="10" departPos="free" departLane="allowed"/>
+	<flow id="f_26337" type="CAR" begin="6914" end="6914" route="f6a" number="10" departPos="free" departLane="allowed"/>
+	<flow id="f_26335" type="CAR" begin="6915" end="6915" route="f4" number="26" departPos="free" departLane="allowed"/>
+	<!-- vid: 7383_1 iterations: 100 f_value: 190 zero_f_value: 190 -->
+	<flow id="f_26441" type="CAR" begin="7049" end="7049" route="f2a" number="35" departPos="free" departLane="allowed"/>
+	<!-- vid: 7459 iterations: 100 f_value: 30 zero_f_value: 37 -->
+</routes>

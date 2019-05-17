@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+   <vehicle id="v_15" route="15" depart="0" type="BUS"/>
+   <vehicle id="v_22_a" route="22_a" depart="0" type="BUS"/>
+   <vehicle id="v_22_b" route="22_b" depart="0" type="BUS"/>
+   <vehicle id="v_24_a" route="24_a" depart="0" type="BUS"/>
+   <vehicle id="v_24_b" route="24_b" depart="0" type="BUS"/>
+   <vehicle id="v_3_a" route="3_a" depart="0" type="BUS"/>
+   <vehicle id="v_3_b" route="3_b" depart="0" type="BUS"/>
+   <vehicle id="v_7" route="7" depart="0" type="BUS"/>
+   <vehicle id="v_65_a" route="65_a" depart="0" type="BUS"/>
+   <vehicle id="v_65_b" route="65_b" depart="0" type="BUS"/>
+   <vehicle id="v_181_a" route="181_a" depart="0" type="BUS"/>
+   <vehicle id="v_181_b" route="181_b" depart="0" type="BUS"/>
+   <vehicle id="v_105_a" route="105_a" depart="0" type="BUS"/>
+   <vehicle id="v_105_b" route="105_b" depart="0" type="BUS"/>
+</routes>
+
+<!-- <flow id="test_car" type="CAR" begin="0" end="500" from="427930952#0" to="143519853" number="1000" /> -->
+
+
