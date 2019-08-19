@@ -11,7 +11,7 @@ with its contents match this with what they've read (or _are_ reading).
 If you are interested in publication or have a question, open an issue
 to get in touch.
 
-###The main goals achieved are:
+### The main goals achieved are:
 
 1. The SUMO/TraCI pair extended at application level to run simulations with buses.
 This includes teleporting to next stop, running simulation until some bus stops, etc.
@@ -22,7 +22,7 @@ See Chapter 2 for details.
 car routes, some trafic lights.
 1. The proposed algoritm applied and produced a result (see results folder).
  
-###This repository contains:
+### This repository contains:
 
 - The extension of TraCI to work with buses properly at `python_src/simulation` (described in Chapter 2)
 - The modified version of NASH algorithm at `python_src/simulation` (described at Chapter 3
@@ -48,7 +48,7 @@ in Chapter 3. Theese includes:
     - plots from the article, Use `python_src/postprocessing.py` to produce them. It also
     runs a demo on the model, and uses its result to build some plots.
     
- ###Reqiurements
+ ### Reqiurements
  
  - SUMO (tested on 1.1.0)
  - python3 (tested on 3.6.7)
