@@ -1,4 +1,4 @@
 CairoSVG==2.3.1
 pandas==0.24.2
-Pillow==6.0.0
+Pillow==9.0.0
 pygal==2.4.0
